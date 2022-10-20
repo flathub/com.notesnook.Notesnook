@@ -11,6 +11,7 @@ separate-locales: false
 finish-args:
   - --share=ipc
   - --socket=x11
+  - --socket=wayland
   - --socket=pulseaudio
   - --share=network
   - --device=dri
@@ -33,7 +34,7 @@ modules:
         cp -r ../build/ ./build/
 
         # Install npm dependencies
-        npm install --offline
+        npm install --offline --ignore-scripts
 
         npm run --offline build
 
@@ -58,10 +59,10 @@ modules:
       - generated-sources.json
       - type: git
         url: https://github.com/streetwriters/notesnook.git
-        commit: bba3e5cf371ddbb558ee050ce8fc6052c9733d2f
+        commit: 0b9e868e7781df8aa71fb33dc5b7d856a53adbba
       - type: archive
-        url: https://github.com/streetwriters/notesnook/releases/download/v2.2.1/notesnook_build_v2.2.1.zip
-        sha256: 5e3f519ac382161ca6bce65692416c6ec61aef3857582f9a98b24196a333f5be
+        url: https://github.com/streetwriters/notesnook/releases/download/v2.2.2/notesnook_build_v2.2.2.zip
+        sha256: d429237725ac5b55a3938237c1cbe0f0f26673f7b6f5632da0d9d9ed59562453
         strip-components: 0
       - type: file
         path: com.notesnook.Notesnook.desktop
@@ -70,4 +71,4 @@ modules:
       - type: script
         dest-filename: start-notesnook.sh
         commands:
-          - zypak-wrapper.sh /app/bin/notesnook "$@"
+          - zypak-wrapper.sh /app/bin/notesnook --ozone-platform-hint=auto --enable-features=WaylandWindowDecorations "$@"
