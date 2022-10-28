@@ -48,6 +48,26 @@
         <internet>offline-only</internet>
     </supports>
     <releases>
+        <release version="2.2.3" date="2022-10-26" urgency="low" type="stable">
+            <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.2.3</url>
+            <description>
+                <p>Features &amp; new stuff</p>
+                <ul>
+                    <li>
+                        Automatic backups will now be scheduled —  Previously, we were taking backups based on certain events (app launch, successful sync) and while this worked this wasn't the most reliable. This release introduces a new scheduler that schedules an automatic backup task. This means that if you keep Notesnook running in the background for multiple days your automatic backups will continue to be created according to your settings.
+                    </li>
+                </ul>
+                <p>Fixes &amp; improvements</p>
+                <ul>
+                    <li>Prevent multiple tables from freezing the editor</li>
+                    <li>Fix null is not an object error during migration</li>
+                    <li>Removed background color from transparent images</li>
+                    <li>Fixed issue where full backup settings were not showing for logged in users</li>
+                    <li>Re-insert/update only migrated items during a migration</li>
+                    <li>Fixed login loop on session expiry</li>
+                </ul>
+            </description>
+        </release>
         <release version="2.2.2" date="2022-10-20" urgency="high" type="stable">
             <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.2.2</url>
             <description>
