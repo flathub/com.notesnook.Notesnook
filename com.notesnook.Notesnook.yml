@@ -59,10 +59,10 @@ modules:
       - generated-sources.json
       - type: git
         url: https://github.com/streetwriters/notesnook.git
-        commit: 0b9e868e7781df8aa71fb33dc5b7d856a53adbba
+        commit: b7d51a61446b0893c2f5776382e784f65dae748f
       - type: archive
-        url: https://github.com/streetwriters/notesnook/releases/download/v2.2.2/notesnook_build_v2.2.2.zip
-        sha256: d429237725ac5b55a3938237c1cbe0f0f26673f7b6f5632da0d9d9ed59562453
+        url: https://github.com/streetwriters/notesnook/releases/download/v2.2.3/notesnook_build_v2.2.3.zip
+        sha256: f254b3c384ab31ba1ac401c363f0be4fdbaf6acc473569147ef74abca97b7d22
         strip-components: 0
       - type: file
         path: com.notesnook.Notesnook.desktop
