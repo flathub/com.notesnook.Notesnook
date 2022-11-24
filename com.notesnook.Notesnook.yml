@@ -15,6 +15,7 @@ finish-args:
   - --socket=pulseaudio
   - --share=network
   - --device=dri
+  - --filesystem=xdg-documents/Notesnook:create
 build-options:
   append-path: /usr/lib/sdk/node16/bin
   env:
@@ -59,10 +60,10 @@ modules:
       - generated-sources.json
       - type: git
         url: https://github.com/streetwriters/notesnook.git
-        commit: b7d51a61446b0893c2f5776382e784f65dae748f
+        commit: 95dd84695b38eb191f2915bd2dcddc59288fea64
       - type: archive
-        url: https://github.com/streetwriters/notesnook/releases/download/v2.2.3/notesnook_build_v2.2.3.zip
-        sha256: f254b3c384ab31ba1ac401c363f0be4fdbaf6acc473569147ef74abca97b7d22
+        url: https://github.com/streetwriters/notesnook/releases/download/v2.2.4/notesnook_build_v2.2.4.zip
+        sha256: ccfb2f70e49ce6e1391104e4311ecbcd79ebf48c3042e7d9fe4108602d83d295
         strip-components: 0
       - type: file
         path: com.notesnook.Notesnook.desktop
