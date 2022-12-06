@@ -66,7 +66,7 @@
                     <li>Removed line break at the start of copied text</li>
                     <li>Handle crash when sorting lists when an item doesn't have a title</li>
                     <li>Ctrl/Cmd+Click now correctly selects/unselects items (it would just select before)</li>
-                    <li>Fonts have been improved to support more glyphs & diacritics</li>
+                    <li>Fonts have been improved to support more glyphs &amp; diacritics</li>
                 </ul>
             </description>
         </release>
