@@ -48,122 +48,25 @@
         <internet>offline-only</internet>
     </supports>
     <releases>
-        <release version="2.2.4" date="2022-11-23" urgency="low" type="stable">
-            <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.2.4</url>
+         <release version="2.3.0" date="2022-12-06" urgency="low" type="stable">
+            <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.3.0</url>
             <description>
                 <p>Features &amp; new stuff</p>
                 <ul>
-                    <li>Preview trashed notes</li>
-                    <li>Structured TXT exports — good news for all your Simplenote users! Text exports now get properly formatted (along with tables &amp; checklists) but don't worry, it's not markdown. #1313</li>
-                    <li>Custom colors — You can now save custom colors in all editor color pickers</li>
-                    <li>Tags now get included in all exports by default</li>
-                    <li>Clear completed tasks — we have added a button that clears all completed tasks within a task list</li>
+                    <li>Web clipper!</li>
+                    <li>Task items now show a button on hover to quickly delete them</li>
                 </ul>
                 <p>Fixes &amp; improvements</p>
                 <ul>
-                    <li>Fixed issue where code blocks wouldn't be highlighted on the very first render</li>
-                    <li>Fixed issue where jumping to search result using arrow keys was not working</li>
-                    <li>Fixed incorrect paragraph formatting while copying text from editor</li>
-                    <li>Fixed issue where latest backups (created after v2.2.3) were not getting restored</li>
-                    <li>Fixed issue where "Change backup location button" was not always visible</li>
-                    <li>Improve HTML parsing performance which directly affects note saving performance</li>
-                    <li>Fixed issue where numbered notes weren't sorted properly</li>
-                    <li>Fixed issue where disabled toolbar items were not removed from the toolbar</li>
-                    <li>Fixed issue where multiple notes were getting selected when right clicking on only 1 note</li>
-                    <li>Attachments are now downloaded on real-time sync</li>
-                    <li>Improve sync connection reliability (getting rid of sync errors on app startup etc.)</li>
-                    <li>Add streaming support for importing huge zips (i.e. you can now import all your notes from any other app no matter how many they are. I have tested this with > 1.5 GB worth of notes)</li>
-                </ul>
-            </description>
-        </release>
-        <release version="2.2.3" date="2022-10-26" urgency="low" type="stable">
-            <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.2.3</url>
-            <description>
-                <p>Features &amp; new stuff</p>
-                <ul>
-                    <li>
-                        Automatic backups will now be scheduled —  Previously, we were taking backups based on certain events (app launch, successful sync) and while this worked this wasn't the most reliable. This release introduces a new scheduler that schedules an automatic backup task. This means that if you keep Notesnook running in the background for multiple days your automatic backups will continue to be created according to your settings.
-                    </li>
-                </ul>
-                <p>Fixes &amp; improvements</p>
-                <ul>
-                    <li>Prevent multiple tables from freezing the editor</li>
-                    <li>Fix null is not an object error during migration</li>
-                    <li>Removed background color from transparent images</li>
-                    <li>Fixed issue where full backup settings were not showing for logged in users</li>
-                    <li>Re-insert/update only migrated items during a migration</li>
-                    <li>Fixed login loop on session expiry</li>
-                </ul>
-            </description>
-        </release>
-        <release version="2.2.2" date="2022-10-20" urgency="high" type="stable">
-            <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.2.2</url>
-            <description>
-                <p>Features &amp; new stuff</p>
-                <ul>
-                    <li>
-                        Bulk exports as HTML, MD or TXT
-                        — you can now export all your notes as HTML, MD or TXT from
-                        Settings. This is available on all platforms.
-                    </li>
-                    <li>The most hated migration dialog has now been removed/replaced with a much less annoying but a lot more useful
-                        dialog.</li>
-                    <li>Backup restore process now reports live progress </li>
-                    <li>
-                        New scrollbars
-                        — the app now feels a lot smoother thanks to these new scrollbars. This also
-                        fixes the issue where scrollbars would be hidden on different platforms &amp; browsers.
-                    </li>
-                </ul>
-                <p>Fixes &amp; improvements</p>
-                <ul>
-                    <li>Reduce minimum required macOS version to 10.12.0</li>
-                    <li>Fixed issue where clicking on an unselected task item toggled the selected task items</li>
-                    <li>Clicking below a table (if it&#39;s the last element in the note) should now create a new paragraph</li>
-                    <li>Fixed issue where free users could not assign already created tags to notes</li>
-                    <li>Fixed issue where table row toolbar would get clipped on smaller screens</li>
-                    <li>Fix issue where a single notebook, tag &amp; topic could have duplicate shortcuts</li>
-                    <li>Merge conflict detection has been greatly improved and now uses proper HTML-based diffing</li>
-                    <li>Allow converting double spaced lines to single spaced lines</li>
-                    <li>
-                        Tab
-                        key now adds a tab character when pressed inside the editor
-                    </li>
-                    <li>Make editor title font-size relative to title length</li>
-                    <li>Fixed issue where drag/droping a task item at the very end of the task list would create a new task list
-                        </li>
-                    <li>On desktop apps the migration process after an upgrade will be automated &amp; won&#39;t require any user
-                            interaction</li>
-                    <li>
-                        External scripts have been completely removed to enhance privacy. This also means that the desktop
-                            apps can now be used 100% offline.
-                    </li>
-                    <li>Pane resizing has also been improved &amp; will now feel more predictable.</li>
-                    <li>Tags autosuggest also got some love in this release &amp; now doesn&#39;t pop up in the top-left corner when
-                            you change notes.</li>
-                    <li>Encrypted backups will now be automatically disabled when your trial ends</li>
-                    <li>Fixed issue where users with 2FA enabled would experience constant login loops during session expiry</li>
-                    <li>Fixed issue where notes screen would go blank on window resize</li>
-                </ul>
-            </description>
-        </release>
-        <release version="2.2.1" date="2022-09-29" urgency="high" type="stable">
-            <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.2.1</url>
-            <description>
-                <p>Features &amp; new stuff</p>
-                <ul>
-                    <li>Removed limit on number of pins</li>
-                </ul>
-                <p>Fixes &amp; improvements:</p>
-                <ul>
-                    <li>Open all links in release notes in a new tab/window</li>
-                    <li>Fixed issue where right click on selected items deselects them</li>
-                    <li>Fixed issue where menus/dropdowns wouldn&#39;t open on desktop/web</li>
-                    <li>Minor improvements in editor performance</li>
-                    <li>Fixed issue where onboarding is shown to everyone on startup</li>
-                    <li>Fixed &quot;Unknown content type&quot; error on backup restore</li>
-                    <li>Fixed issue where typing really fast in title input caused jank</li>
-                    <li>Fixed issue with snap desktop integration</li>
+                    <li>Fixed error when permanently deleting attachments</li>
+                    <li>Show custom overlay scrollbar in mobile mode</li>
+                    <li>Fixed overlapping text on default home page buttons in settings</li>
+                    <li>Fixed persistent editor dropdown toolbar even when changing notes</li>
+                    <li>Fixed clear completed tasks button hidden</li>
+                    <li>Removed line break at the start of copied text</li>
+                    <li>Handle crash when sorting lists when an item doesn't have a title</li>
+                    <li>Ctrl/Cmd+Click now correctly selects/unselects items (it would just select before)</li>
+                    <li>Fonts have been improved to support more glyphs &amp; diacritics</li>
                 </ul>
             </description>
         </release>
