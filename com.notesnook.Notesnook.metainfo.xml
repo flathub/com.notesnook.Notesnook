@@ -1,74 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-    <id>com.notesnook.Notesnook</id>
-    <name>Notesnook</name>
-    <summary>A fully open source &amp; end-to-end encrypted note taking alternative to Evernote</summary>
-    <metadata_license>CC0-1.0</metadata_license>
-    <project_license>GPL-3.0-or-later</project_license>
-    <developer_name>Streetwriters</developer_name>
-    <description>
-        <p>Notesnook is a free (as in speech) &amp; open source note taking app focused on user privacy &amp; ease of use. To ensure zero knowledge principles, Notesnook encrypts everything on your device using XChaCha20-Poly1305 &amp; Argon2.</p>
-        <p>Notesnook is our proof that privacy does not (always) have to come at the cost of convenience. Our goal is to provide users peace of mind &amp; 100% confidence that their notes are safe and secure. Our decision to go fully open source is one of the most crucial steps towards that.</p>
-        <p>Notesnook is a user focused note taking tool meant to offer a fully end-to-end encrypted note taking experience for everyone. This includes the majority of our less tech savy users who just want to take notes without all the hassle.</p>
-        <p>In short, Notesnook aims to offer a complete replacement for other insecure note taking tools like Evernote &amp; Notion. Because let's be honest, these tools offer great productivity but at a great cost to your privacy.</p>
-    </description>
-    <url type="homepage">https://notesnook.com/</url>
-    <url type="bugtracker">https://github.com/streetwriters/notesnook/issues</url>
-    <url type="help">https://docs.notesnook.com/</url>
-    <url type="donation">https://opencollective.com/notesnook</url>
-    <url type="contribute">https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md</url>
-    <launchable type="desktop-id">com.notesnook.Notesnook.desktop</launchable>
-    <provides>
-        <binary>notesnook</binary>
-    </provides>
-    <screenshots>
-        <screenshot type="default">
-            <image>https://notesnook.com/screenshots/desktop/1.jpg</image>
-        </screenshot>
-        <screenshot type="default">
-            <image>https://notesnook.com/screenshots/desktop/2.jpg</image>
-        </screenshot>
-    </screenshots>
-    <categories>
-        <category>Education</category>
-        <category>Office</category>
-    </categories>
-    <keywords>
-        <keyword>notepad</keyword>
-        <keyword>note taking app</keyword>
-        <keyword>note taking</keyword>
-        <keyword>end-to-end encrypted</keyword>
-        <keyword>notebook</keyword>
-    </keywords>
-    <content_rating type="oars-1.0">
-        <content_attribute id="social-contacts">intense</content_attribute>
-        <content_attribute id="money-purchasing">intense</content_attribute>
-    </content_rating>
-    <supports>
-        <internet>offline-only</internet>
-    </supports>
-    <releases>
-         <release version="2.3.0" date="2022-12-06" urgency="low" type="stable">
-            <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.3.0</url>
-            <description>
-                <p>Features &amp; new stuff</p>
-                <ul>
-                    <li>Web clipper!</li>
-                    <li>Task items now show a button on hover to quickly delete them</li>
-                </ul>
-                <p>Fixes &amp; improvements</p>
-                <ul>
-                    <li>Fixed error when permanently deleting attachments</li>
-                    <li>Show custom overlay scrollbar in mobile mode</li>
-                    <li>Fixed overlapping text on default home page buttons in settings</li>
-                    <li>Fixed persistent editor dropdown toolbar even when changing notes</li>
-                    <li>Fixed clear completed tasks button hidden</li>
-                    <li>Removed line break at the start of copied text</li>
-                    <li>Handle crash when sorting lists when an item doesn't have a title</li>
-                    <li>Ctrl/Cmd+Click now correctly selects/unselects items (it would just select before)</li>
-                    <li>Fonts have been improved to support more glyphs &amp; diacritics</li>
-                </ul>
-            </description>
-        </release>
-    </releases>
+  <id>com.notesnook.Notesnook</id>
+  <name>Notesnook</name>
+  <summary>
+    A fully open source &amp; end-to-end encrypted note taking alternative to
+    Evernote
+  </summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <developer_name>Streetwriters</developer_name>
+  <description>
+    <p>
+      Notesnook is a free (as in speech) &amp; open source note taking app
+      focused on user privacy &amp; ease of use. To ensure zero knowledge
+      principles, Notesnook encrypts everything on your device using
+      XChaCha20-Poly1305 &amp; Argon2.
+    </p>
+    <p>
+      Notesnook is our proof that privacy does not (always) have to come at the
+      cost of convenience. Our goal is to provide users peace of mind &amp; 100%
+      confidence that their notes are safe and secure. Our decision to go fully
+      open source is one of the most crucial steps towards that.
+    </p>
+    <p>
+      Notesnook is a user focused note taking tool meant to offer a fully
+      end-to-end encrypted note taking experience for everyone. This includes
+      the majority of our less tech savy users who just want to take notes
+      without all the hassle.
+    </p>
+    <p>
+      In short, Notesnook aims to offer a complete replacement for other
+      insecure note taking tools like Evernote &amp; Notion. Because let's be
+      honest, these tools offer great productivity but at a great cost to your
+      privacy.
+    </p>
+  </description>
+  <url type="homepage">https://notesnook.com/</url>
+  <url type="bugtracker">https://github.com/streetwriters/notesnook/issues</url>
+  <url type="help">https://docs.notesnook.com/</url>
+  <url type="donation">https://opencollective.com/notesnook</url>
+  <url type="contribute"
+    >https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md</url
+  >
+  <launchable type="desktop-id">com.notesnook.Notesnook.desktop</launchable>
+  <provides>
+    <binary>notesnook</binary>
+  </provides>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://notesnook.com/screenshots/desktop/1.jpg</image>
+    </screenshot>
+    <screenshot type="default">
+      <image>https://notesnook.com/screenshots/desktop/2.jpg</image>
+    </screenshot>
+  </screenshots>
+  <categories>
+    <category>Education</category>
+    <category>Office</category>
+  </categories>
+  <keywords>
+    <keyword>notepad</keyword>
+    <keyword>note taking app</keyword>
+    <keyword>note taking</keyword>
+    <keyword>end-to-end encrypted</keyword>
+    <keyword>notebook</keyword>
+  </keywords>
+  <content_rating type="oars-1.0">
+    <content_attribute id="social-contacts">intense</content_attribute>
+    <content_attribute id="money-purchasing">intense</content_attribute>
+  </content_rating>
+  <supports>
+    <internet>offline-only</internet>
+  </supports>
+  <releases>
+    <release version="2.4.0" date="2023-01-14" urgency="low" type="stable">
+      <url type="details"
+        >https://github.com/streetwriters/notesnook/releases/tag/v2.4.0</url
+      >
+      <description>
+        <p>Features &amp; new stuff</p>
+        <ul>
+          <li>Cross-platform reminders!</li>
+          <li>Sync controls</li>
+          <li>Changing your account email</li>
+          <li>New &amp; improved login flow</li>
+          <li>Improve PDF &amp; HTML exports</li>
+          <li>Delete notes with a notebook/topic</li>
+          <li>Images in editor now show a download button on selection</li>
+          <li>Bypass CORS when downloading &amp; attaching images in editor</li>
+          <li>Improved sync status</li>
+        </ul>
+        <p>Fixes &amp; improvements</p>
+        <ul>
+          <li>
+            Fixed issue in editor where delete completed tasks button wasn&#39;t
+            disabled in readonly mode
+          </li>
+          <li>
+            Fixed issue where text highlight &amp; text color popups were not
+            opening on mobile
+          </li>
+          <li>
+            Fixed issue where task list couldn&#39;t be collapsed or expanded
+          </li>
+          <li>Task list UI has been improved</li>
+          <li>
+            Fixed issue where the current search result wouldn&#39;t scroll into
+            view
+          </li>
+          <li>
+            Properties close button now correctly shows the pointer cursor on
+            hover
+          </li>
+          <li>
+            Fixed UI glitch in navigation menu when resizing app between tablet
+            &amp; desktop mode
+          </li>
+          <li>Fixed issue where right clicking on a link opened it</li>
+          <li>
+            Base64 images (i.e., images copied &amp; pasted directly) are now
+            cached properly (This fixes the issue where images would be broken
+            right after attaching it).
+          </li>
+          <li>Fixed issue where searched topics couldn&#39;t be opened</li>
+          <li>Fixed issue where line breaks are ignored by the word counter</li>
+          <li>
+            Backspacing in the first item of a list no longer lifts it out of
+            the list
+          </li>
+          <li>
+            List selection prompt now closes immediately after inserting a list
+          </li>
+          <li>
+            Increase y-offset of table column properties menu so its visible in
+            all cases
+          </li>
+          <li>Fixed sync issue causing unintended merge conflicts</li>
+          <li>
+            Fixed a lot of issues causing sync to temporarily get stuck
+            (requiring app restart)
+          </li>
+        </ul>
+      </description>
+    </release>
+  </releases>
 </component>
