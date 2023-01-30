@@ -4,5 +4,18 @@ Exec=start-notesnook %U
 Terminal=false
 Type=Application
 Icon=com.notesnook.Notesnook
+Categories=Office
+Actions=new-note;new-notebook;new-reminder;
 Comment=End-to-end encrypted notepad
-Categories=Education;Office
+
+[Desktop Action new-note]
+Name=New note
+Exec=start-notesnook new note
+
+[Desktop Action new-notebook]
+Name=New notebook
+Exec=start-notesnook new reminder
+
+[Desktop Action new-reminder]
+Name=New reminder
+Exec=start-notesnook new reminder
