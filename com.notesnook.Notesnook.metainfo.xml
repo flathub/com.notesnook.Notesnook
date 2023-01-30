@@ -39,9 +39,7 @@
   <url type="bugtracker">https://github.com/streetwriters/notesnook/issues</url>
   <url type="help">https://docs.notesnook.com/</url>
   <url type="donation">https://opencollective.com/notesnook</url>
-  <url type="contribute"
-    >https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md</url
-  >
+  <url type="contribute">https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md</url>
   <launchable type="desktop-id">com.notesnook.Notesnook.desktop</launchable>
   <provides>
     <binary>notesnook</binary>
@@ -73,10 +71,59 @@
     <internet>offline-only</internet>
   </supports>
   <releases>
+    <release version="2.4.1" date="2023-01-30" urgency="medium" type="stable">
+      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.4.1</url>
+      <description>
+        <p>:star2: Features &amp; new stuff</p>
+        <ul>
+          <li>
+            <strong>Spell checker</strong> is back! You can enable/disable it &amp; select multiple
+            languages as you see fit. </li>
+          <li>
+            <strong>Editor margins</strong> can now be enabled/disabled as you see fit. </li>
+          <li>Telemetry settings now respect DNT (Do Not Track) header</li>
+          <li>Reminder on desktop now use native notifications for better UX</li>
+          <li>Privacy mode now disables window thumbnail on Windows</li>
+          <li> This release adds a couple of things to improve integration with the OS: <ul>
+              <li>Auto start on system startup</li>
+              <li>Minimize to system</li>
+              <li>Close to system tray</li>
+              <li>Dock icon menu on macOS</li>
+              <li>
+                Jumplist items on Linux &amp; Windows (right click on the Notesnook icon
+                in your task bar to see this)
+              </li>
+              <li>System tray support</li>
+              <li>CLI commands.</li>
+            </ul>
+          </li>
+        </ul>
+        <p>:bug: Fixes &amp; improvements</p>
+        <ul>
+          <li>Show app name on notifications on Windows</li>
+          <li>Fix double refresh token requests on page refresh</li>
+          <li>Disable current time check for recurring reminders</li>
+          <li> Add checks when accessing a note using <code>this._db.notes.note</code>
+          </li>
+          <li>Don&#39;t connect SSE or run sync when user is logged out</li>
+          <li>Improve image loading</li>
+          <li>Don&#39;t create new p tag at editor end if there is selection</li>
+          <li>Fix issue where changes in code block were not properly highlighted</li>
+          <li>Refresh search when note is switched</li>
+          <li>
+            Fix crash when closing search in a different note than the one it was opened
+            in
+          </li>
+          <li>Do not reset reminder&#39;s recurring mode on edit</li>
+          <li>Fix issue where monthly recurring reminder was always 1 day behind</li>
+          <li>Reorder &amp; invert sync toggles in settings</li>
+          <li>Recovery code input should accept alphanumeric input</li>
+        </ul>
+
+      </description>
+    </release>
     <release version="2.4.0" date="2023-01-14" urgency="low" type="stable">
-      <url type="details"
-        >https://github.com/streetwriters/notesnook/releases/tag/v2.4.0</url
-      >
+      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.4.0</url>
       <description>
         <p>Features &amp; new stuff</p>
         <ul>
