@@ -71,6 +71,40 @@
     <internet>offline-only</internet>
   </supports>
   <releases>
+    <release version="2.4.4" date="2023-02-28" urgency="medium" type="stable">
+      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.4.4</url>
+      <description>
+        <p>Features &amp; new stuff</p>
+        <ul>
+          <li>Sortable task lists</li>
+          <li>Faster editor performance</li>
+          <li>New outline lists</li>
+          <li>Much smoother app startup experience</li>
+        </ul>
+        <p>Fixes &amp; improvements</p>
+        <ul>
+          <li>Fix issue where links were editable even in readonly mode</li>
+          <li>Fix vertical spacing between nested list items</li>
+          <li>Fix issue where Notebooks submenu is positioned incorrectly at the top</li>
+          <li>Editor performance improvements</li>
+          <li>Fix issue where extra whitespaces/tabs are not preserved in editor</li>
+          <li>Adjust horizontal rule&#39;s vertical spacing</li>
+          <li>Fix link colors in link hover popup</li>
+          <li>Fix issue where Enter key does not move cursor to newly created line on some keyboards
+            in Android</li>
+          <li>Hide status bar in tablet mode</li>
+          <li>Fix issue where note context menu crashed due to incorrect topic references</li>
+          <li>Improve backspace handling with lists</li>
+          <li>Properly handle duplicate titled notes in bulk note exports</li>
+          <li>Hide backup reminder after backup has been downloaded</li>
+          <li>Fix issue where attached images wouldn&#39;t load after real time sync</li>
+          <li>Improve &quot;Clear completed tasks&quot; performance</li>
+          <li>Fix link popup not opening on link focus in mobile</li>
+          <li>Attachments can now be multi selected again in the &quot;Manage attachments&quot;
+            dialog</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.4.1" date="2023-01-30" urgency="medium" type="stable">
       <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.4.1</url>
       <description>
