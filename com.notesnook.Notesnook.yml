@@ -10,16 +10,23 @@ command: start-notesnook
 separate-locales: false
 finish-args:
   - --share=ipc
+  # X11 access
   - --socket=x11
+  # Wayland access
   - --socket=wayland
+  # audio
   - --socket=pulseaudio
-  - --share=network
+  # required for Electron hardware acceleration
   - --device=dri
+  # Syncing & login
+  - --share=network
+  # Backups
   - --filesystem=xdg-documents/Notesnook:create
+  # System Tray Icon
+  - --talk-name=org.freedesktop.StatusNotifierWatcher
+  - --talk-name=org.freedesktop.StatusNotifierItem
+  # Notifications
   - --talk-name=org.freedesktop.Notifications
-  - --talk-name=com.canonical.AppMenu.Registrar
-  - --talk-name=com.canonical.indicator.application
-  - --talk-name=com.canonical.Unity.LauncherEntry
 build-options:
   append-path: /usr/lib/sdk/node16/bin
   env:
