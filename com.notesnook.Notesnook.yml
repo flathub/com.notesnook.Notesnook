@@ -17,6 +17,8 @@ finish-args:
   - --device=dri
   - --filesystem=xdg-documents/Notesnook:create
   - --talk-name=org.freedesktop.Notifications
+  - --talk-name=com.canonical.AppMenu.Registrar
+  - --talk-name=com.canonical.indicator.application
   - --talk-name=com.canonical.Unity.LauncherEntry
 build-options:
   append-path: /usr/lib/sdk/node16/bin
@@ -62,10 +64,10 @@ modules:
       - generated-sources.json
       - type: git
         url: https://github.com/streetwriters/notesnook.git
-        commit: 8e5d931be1a15194ca0e8a76871197cce5d1e72e
+        commit: 969611c9e6ca72530d6d406e83bb9a0d6c376316
       - type: archive
-        url: https://github.com/streetwriters/notesnook/releases/download/v2.4.4/notesnook_build_v2.4.4.zip
-        sha256: 28d3bb10c160ebf95a043dc15fd5840a8218a5c97aec7da64dedafeeb098d446
+        url: https://github.com/streetwriters/notesnook/releases/download/v2.4.5/notesnook_build_v2.4.5.zip
+        sha256: 8428962685c13901acca5991c1407a4f56c0c91cdabd09568d1a0f4b2992e4b2
         strip-components: 0
       - type: file
         path: com.notesnook.Notesnook.desktop
