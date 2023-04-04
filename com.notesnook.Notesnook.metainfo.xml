@@ -71,84 +71,22 @@
     <internet>offline-only</internet>
   </supports>
   <releases>
-    <release version="2.4.5" date="2023-03-22" urgency="medium" type="stable">
-      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.4.5</url>
+    <release version="2.4.7" date="2023-04-05" urgency="medium" type="stable">
+      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.4.7</url>
       <description>
-        <p>Features &amp; new stuff</p>
-        <ul>
-          <li>Topics are now optional</li>
-          <li>Customizable trash cleanup interval</li>
-          <li>Tab/window title will now change based on the opened note</li>
-          <li>Arm64 support for Windows &amp; Linux </li>
-          <li>Images are now much more stable</li>
-        </ul>
         <p>Fixes &amp; improvements</p>
         <ul>
-          <li>Fix autocomplete text color for all text inputs</li>
-          <li>Move cell properties button outside of table settings </li>
-          <li>Do a healthcheck before logging out user on session revoke </li>
-          <li>Fix issue where table options are not visible on some tables </li>
-          <li>Fix issue where dropdown required 2 clicks to open in editor toolbar </li>
-          <li>Simplify subscription cancellation </li>
-          <li>Fix monographs and reminders search</li>
-          <li>Keep marks when creating new list items in editor </li>
-          <li>Fix sub checklists not getting sorted </li>
-          <li>Attachments now automatically infer an extension based on mime type</li>
-          <li>App version can now be copied on clicking the version item in settings</li>
-          <li>A lot of improvements to code blocks:<ul>
-              <li>Pasting from VSCode, GitHub, GitLab, MDN, Stackoverflow etc. will now
-                automatically detect &amp; highlight the code blocks</li>
-              <li>Typing inside a code block should now be much, much faster</li>
-              <li>Wrapping has been disabled for all lines in the code block</li>
-            </ul>
-          </li>
-          <li>Many, many fixes to images:<ul>
-              <li>Fix pasting of images from around another web page</li>
-              <li>Improve save performance of notes that have a lot of images in them</li>
-              <li>Improve image loading animation (there should be much less jank)</li>
-              <li>Fix sizing issues of images (and their placeholders) especially on small devices</li>
-              <li>All Notesnook clients now only load newly added images on realtime sync instead of
-            loading all the images. This greatly speeds up sync.</li>
-            </ul>
-          </li>
+          <li>Fix crash when trying to open Configure Toolbar dialog</li>
+          <li>Fix RTL support for outline lists</li>
+          <li>Fix line spacings of PDF, HTML &amp; TXT exports</li>
+          <li>Improve notebook/topic selection in link notebooks dialog</li>
+          <li>Do not add empty &quot;none&quot; tool in Configure Toolbar dialog</li>
+          <li>Fix code block text overflow in PDF/HTML exports</li>
+          <li>Disable deleting of locked notes</li>
+          <li>Fix <code>cannot read property id of undefined</code> on importing from Evernote</li>
+          <li>Various fixes in &quot;Link notebooks&quot; dialog</li>
         </ul>
       </description>
     </release>
-
-    <release version="2.4.4" date="2023-02-28" urgency="medium" type="stable">
-      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.4.4</url>
-      <description>
-        <p>Features &amp; new stuff</p>
-        <ul>
-          <li>Sortable task lists</li>
-          <li>Faster editor performance</li>
-          <li>New outline lists</li>
-          <li>Much smoother app startup experience</li>
-        </ul>
-        <p>Fixes &amp; improvements</p>
-        <ul>
-          <li>Fix issue where links were editable even in readonly mode</li>
-          <li>Fix vertical spacing between nested list items</li>
-          <li>Fix issue where Notebooks submenu is positioned incorrectly at the top</li>
-          <li>Editor performance improvements</li>
-          <li>Fix issue where extra whitespaces/tabs are not preserved in editor</li>
-          <li>Adjust horizontal rule&#39;s vertical spacing</li>
-          <li>Fix link colors in link hover popup</li>
-          <li>Fix issue where Enter key does not move cursor to newly created line on some keyboards
-            in Android</li>
-          <li>Hide status bar in tablet mode</li>
-          <li>Fix issue where note context menu crashed due to incorrect topic references</li>
-          <li>Improve backspace handling with lists</li>
-          <li>Properly handle duplicate titled notes in bulk note exports</li>
-          <li>Hide backup reminder after backup has been downloaded</li>
-          <li>Fix issue where attached images wouldn&#39;t load after real time sync</li>
-          <li>Improve &quot;Clear completed tasks&quot; performance</li>
-          <li>Fix link popup not opening on link focus in mobile</li>
-          <li>Attachments can now be multi selected again in the &quot;Manage attachments&quot;
-            dialog</li>
-        </ul>
-      </description>
-    </release>
-
   </releases>
 </component>
