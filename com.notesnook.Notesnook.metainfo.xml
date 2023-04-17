@@ -71,6 +71,26 @@
     <internet>offline-only</internet>
   </supports>
   <releases>
+    <release version="2.4.8" date="2023-04-18" urgency="low" type="stable">
+      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.4.8</url>
+      <description>
+        <p>Features &amp; new stuff</p>
+        <ul>
+          <li>Add option to change default font size &amp; font family in editor</li>
+        </ul>
+        <p>Fixes &amp; improvements</p>
+        <ul>
+          <li>Fix issue where notes marked as local only got deleted on sync</li>
+          <li>Fix issue where remote note was not synced if local note does not exist</li>
+          <li>Do not show success toast if notebook failed to create</li>
+          <li>Disable input sanitization when renaming color/tag</li>
+          <li>Fix code block syntax highlighting not updating when changing its language</li>
+          <li>Fix jumping text/bg color popup in editor</li>
+          <li>Fix crash while editing links on mobile</li>
+          <li>All toolbars should scroll if buttons overflow</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.4.7" date="2023-04-05" urgency="medium" type="stable">
       <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.4.7</url>
       <description>
