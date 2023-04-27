@@ -71,6 +71,21 @@
     <internet>offline-only</internet>
   </supports>
   <releases>
+    <release version="2.4.9" date="2023-04-27" urgency="medium" type="stable">
+      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.4.9</url>
+      <description>
+        <p>Fixes &amp; improvements</p>
+        <ul>
+          <li>Fix &quot;Unauthorized&quot; error on subscription cancelation &amp; update</li>
+          <li>Fix issue where duplicated note remained coupled with the original note</li>
+          <li>Fix issue where a note with empty content could not be duplicated</li>
+          <li>Fix obfuscation of short email addresses</li>
+          <li>Fix issue where YouTube embeds failed with 401 error in desktop app</li>
+          <li>Prevent already subscribed users from resubscribing</li>
+          <li>Fix issue where sync stopped working after resume from sleep</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.4.8" date="2023-04-18" urgency="low" type="stable">
       <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.4.8</url>
       <description>
