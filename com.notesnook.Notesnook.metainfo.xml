@@ -71,55 +71,29 @@
     <internet>offline-only</internet>
   </supports>
   <releases>
-    <release version="2.4.10" date="2023-04-27" urgency="high" type="stable">
-      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.4.19</url>
-      <description>
-        <p>Fixes &amp; improvements</p>
-        <ul>
-          <li>Fix &quot;Unauthorized&quot; error on subscription cancelation &amp; update</li>
-          <li>Fix issue where duplicated note remained coupled with the original note</li>
-          <li>Fix issue where a note with empty content could not be duplicated</li>
-          <li>Fix obfuscation of short email addresses</li>
-          <li>Fix issue where YouTube embeds failed with 401 error in desktop app</li>
-          <li>Prevent already subscribed users from resubscribing</li>
-          <li>Fix issue where sync stopped working after resume from sleep</li>
-        </ul>
-      </description>
-    </release>
-    <release version="2.4.8" date="2023-04-18" urgency="low" type="stable">
-      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.4.8</url>
+    <release version="2.5.0" date="2023-05-29" urgency="high" type="stable">
+      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.5.0</url>
       <description>
         <p>Features &amp; new stuff</p>
         <ul>
-          <li>Add option to change default font size &amp; font family in editor</li>
+          <li>Attachment previews</li>
+          <li>New attachment manager</li>
+          <li>Add support for link markdown syntax </li>
+          <li>Add support for printing notes </li>
+          <li>Set tags on multiple notes at once </li>
+          <li>It is now also possible to download &amp; save all your attachments quickly from
+            within the attachments manager</li>
         </ul>
         <p>Fixes &amp; improvements</p>
         <ul>
-          <li>Fix issue where notes marked as local only got deleted on sync</li>
-          <li>Fix issue where remote note was not synced if local note does not exist</li>
-          <li>Do not show success toast if notebook failed to create</li>
-          <li>Disable input sanitization when renaming color/tag</li>
-          <li>Fix code block syntax highlighting not updating when changing its language</li>
-          <li>Fix jumping text/bg color popup in editor</li>
-          <li>Fix crash while editing links on mobile</li>
-          <li>All toolbars should scroll if buttons overflow</li>
-        </ul>
-      </description>
-    </release>
-    <release version="2.4.7" date="2023-04-05" urgency="medium" type="stable">
-      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.4.7</url>
-      <description>
-        <p>Fixes &amp; improvements</p>
-        <ul>
-          <li>Fix crash when trying to open Configure Toolbar dialog</li>
-          <li>Fix RTL support for outline lists</li>
-          <li>Fix line spacings of PDF, HTML &amp; TXT exports</li>
-          <li>Improve notebook/topic selection in link notebooks dialog</li>
-          <li>Do not add empty &quot;none&quot; tool in Configure Toolbar dialog</li>
-          <li>Fix code block text overflow in PDF/HTML exports</li>
-          <li>Disable deleting of locked notes</li>
-          <li>Fix <code>cannot read property id of undefined</code> on importing from Evernote</li>
-          <li>Various fixes in &quot;Link notebooks&quot; dialog</li>
+          <li>Fix position of outline list bullet/arrow </li>
+          <li>Fix duplication of note that is directly inside a notebook </li>
+          <li>Make cell properties work with header cells </li>
+          <li>Do not open links twice in readonly mode </li>
+          <li>Prevent table column size reset in readonly mode </li>
+          <li>Close deleted note on sync </li>
+          <li>Fix search inside notebooks </li>
+          <li>Fix list crash on shift+click when there&#39;s no selection </li>
         </ul>
       </description>
     </release>
