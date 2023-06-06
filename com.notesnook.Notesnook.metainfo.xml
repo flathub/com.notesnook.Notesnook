@@ -71,6 +71,27 @@
     <internet>offline-only</internet>
   </supports>
   <releases>
+    <release version="2.5.1" date="2023-06-05" urgency="low" type="stable">
+      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.5.1</url>
+      <description>
+        <p>Features &amp; new stuff</p>
+        <ul>
+          <li>Configurable date format</li>
+          <li>Default note title**</li>
+          <li>Default notebook/topic</li>
+          <li>Marketing emails opt-out</li>
+        </ul>
+        <p>Fixes &amp; improvements</p>
+        <ul>
+          <li>Allow download &amp; preview of attachments in readonly mode</li>
+          <li>Enable search in readonly mode</li>
+          <li>Enable tools on images &amp; links in readonly mode </li>
+          <li>Allow starting lists with arbitrary number</li>
+          <li>Fix start as minimized on Windows</li>
+          <li>Fix the blank/black window on startup in Windows</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.5.0" date="2023-05-29" urgency="high" type="stable">
       <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.5.0</url>
       <description>
