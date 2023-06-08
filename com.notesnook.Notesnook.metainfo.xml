@@ -71,6 +71,25 @@
     <internet>offline-only</internet>
   </supports>
   <releases>
+    <release version="2.5.2" date="2023-06-08" urgency="medium" type="stable">
+      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.5.2</url>
+      <description>
+        <p>Features &amp; new stuff</p>
+        <ul>
+          <li>All standard date formats (including ISO-8601)</li>
+          <li>New template for title format, <code>$timestamp$</code> to add full date and time to
+            note title without any dashes or other symbols.</li>
+          <li>Add support for changing primary two-factor authentication method from Settings</li>
+        </ul>
+        <p>Fixes &amp; improvements</p>
+        <ul>
+          <li>Fix issue where using <code>$headline$</code> template in title format adds comma
+            after each word of title</li>
+          <li>Fix issues with text selection in editor becoming sticky/unresponsive</li>
+          <li>Fix crash on Safari/WebKit</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.5.1" date="2023-06-05" urgency="low" type="stable">
       <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.5.1</url>
       <description>
