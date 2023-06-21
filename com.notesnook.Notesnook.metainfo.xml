@@ -71,6 +71,33 @@
     <internet>offline-only</internet>
   </supports>
   <releases>
+    <release version="2.5.3" date="2023-06-21" urgency="medium" type="stable">
+      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.5.3</url>
+      <description>
+        <p>Features &amp; new stuff</p>
+        <ul>
+          <li>Native encryption/decryption on desktop</li>
+          <li>New UI for Settings</li>
+          <li>Automatic backups are now disabled by default</li>
+          <li>Encrypted backups for all</li>
+        </ul>
+        <p>Fixes &amp; improvements</p>
+        <ul>
+          <li>Fix editor theme not changing with app theme</li>
+          <li>Fix search in topic/notebook return incomplete results</li>
+          <li>Fix/trial expired notice shows on app restart for new users</li>
+          <li>Persist text alignment &amp; direction on heading creation</li>
+          <li>Fix pane sizes getting reset randomly on startup</li>
+          <li>Allow focusing editor by clicking at the bottom</li>
+          <li>Fix crash on viewing a merge conflict</li>
+          <li>Do not include trashed notes in total notebook notes</li>
+          <li>Fix navigation on small screens &amp; mobiles</li>
+          <li>Fix issue where editor theme would not changing with app theme</li>
+          <li>Images are now cached by the editor resulting in faster reloads &amp; much smoother
+            experience during real-time editor syncing (it also now consumes much less memory).</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.5.2" date="2023-06-08" urgency="medium" type="stable">
       <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.5.2</url>
       <description>

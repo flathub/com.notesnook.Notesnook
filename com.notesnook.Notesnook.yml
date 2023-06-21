@@ -42,39 +42,41 @@ modules:
     build-commands:
       - ./flatpak-node/electron-builder-arch-args.sh
       - |
-        cd ./apps/web/desktop
-        cp -r ../build/ ./build/
+        npm install --omit=dev --offline --ignore-scripts
 
-        # Install npm dependencies
-        npm install --offline --ignore-scripts
+        node_modules/.bin/lerna bootstrap --scope=@notesnook/desktop --scope=@notesnook/crypto --scope=@notesnook/sodium -- --offline
 
-        npm run --offline build
+        cp -r apps/web/build/ apps/desktop/build/
+
+        npx --offline nx run release --project @notesnook/desktop
+        
+        cd apps/desktop/
 
         npx --offline electron-builder $ELECTRON_BUILDER_ARCH_ARGS --linux --dir
 
         # Bundle app and dependencies
-        cp -r dist/linux-*unpacked/* /app/bin/
+        cp -r output/linux-*unpacked/* /app/bin/
 
       - install -Dm 755 start-notesnook.sh /app/bin/start-notesnook
     post-install:
-      - install -Dm644 ./apps/web/desktop/assets/icons/16x16.png /app/share/icons/hicolor/16x16/apps/$FLATPAK_ID.png
-      - install -Dm644 ./apps/web/desktop/assets/icons/24x24.png  /app/share/icons/hicolor/24x24/apps/$FLATPAK_ID.png
-      - install -Dm644 ./apps/web/desktop/assets/icons/32x32.png  /app/share/icons/hicolor/32x32/apps/$FLATPAK_ID.png
-      - install -Dm644 ./apps/web/desktop/assets/icons/64x64.png  /app/share/icons/hicolor/64x64/apps/$FLATPAK_ID.png
-      - install -Dm644 ./apps/web/desktop/assets/icons/48x48.png  /app/share/icons/hicolor/48x48/apps/$FLATPAK_ID.png
-      - install -Dm644 ./apps/web/desktop/assets/icons/128x128.png  /app/share/icons/hicolor/128x128/apps/$FLATPAK_ID.png
-      - install -Dm644 ./apps/web/desktop/assets/icons/256x256.png  /app/share/icons/hicolor/256x256/apps/$FLATPAK_ID.png
-      - install -Dm644 ./apps/web/desktop/assets/icons/512x512.png  /app/share/icons/hicolor/512x512/apps/$FLATPAK_ID.png
+      - install -Dm644 ./apps/desktop/assets/icons/16x16.png /app/share/icons/hicolor/16x16/apps/$FLATPAK_ID.png
+      - install -Dm644 ./apps/desktop/assets/icons/24x24.png  /app/share/icons/hicolor/24x24/apps/$FLATPAK_ID.png
+      - install -Dm644 ./apps/desktop/assets/icons/32x32.png  /app/share/icons/hicolor/32x32/apps/$FLATPAK_ID.png
+      - install -Dm644 ./apps/desktop/assets/icons/64x64.png  /app/share/icons/hicolor/64x64/apps/$FLATPAK_ID.png
+      - install -Dm644 ./apps/desktop/assets/icons/48x48.png  /app/share/icons/hicolor/48x48/apps/$FLATPAK_ID.png
+      - install -Dm644 ./apps/desktop/assets/icons/128x128.png  /app/share/icons/hicolor/128x128/apps/$FLATPAK_ID.png
+      - install -Dm644 ./apps/desktop/assets/icons/256x256.png  /app/share/icons/hicolor/256x256/apps/$FLATPAK_ID.png
+      - install -Dm644 ./apps/desktop/assets/icons/512x512.png  /app/share/icons/hicolor/512x512/apps/$FLATPAK_ID.png
       - install -D com.notesnook.Notesnook.desktop -t  /app/share/applications/
       - install -D com.notesnook.Notesnook.metainfo.xml -t  /app/share/metainfo/
     sources:
       - generated-sources.json
       - type: git
         url: https://github.com/streetwriters/notesnook.git
-        commit: 3e95960b45848916e9445731a16d1e468baafb54
+        commit: 1c43da0eb05b3dea207f75b046ae042f1b26e3d1
       - type: archive
-        url: https://github.com/streetwriters/notesnook/releases/download/v2.5.2/notesnook_build_v2.5.2.zip
-        sha256: bb54cb4250446ba412b2c6bf3317e296d254afd424cd438ae08e3f1c1c326a68
+        url: https://github.com/streetwriters/notesnook/releases/download/v2.5.3/notesnook_build_v2.5.3.zip
+        sha256: 751c24b67c7dbd8eb64a10fbb3a1a4b496559717bba7a0b53f1b2ee915ea5793
         strip-components: 0
       - type: file
         path: com.notesnook.Notesnook.desktop
