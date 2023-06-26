@@ -76,7 +76,7 @@ modules:
         commit: 52dcf868b4edeccaeaaabc5764fd8ae1228e506f
       - type: archive
         url: https://github.com/streetwriters/notesnook/releases/download/v2.5.5/notesnook_build_v2.5.5.zip
-        sha256: 39B54B8244B9197277974CD7D815F5866EDE26450A38A778D92D2594D4A9687D
+        sha256: 39b54b8244b9197277974cd7d815f5866ede26450a38a778d92d2594d4a9687d
         strip-components: 0
       - type: file
         path: com.notesnook.Notesnook.desktop
