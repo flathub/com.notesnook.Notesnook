@@ -71,6 +71,22 @@
     <internet>offline-only</internet>
   </supports>
   <releases>
+   <release version="2.5.5" date="2023-06-26" urgency="high" type="stable">
+      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.5.5</url>
+      <description>
+        <p>Features &amp; new stuff</p>
+        <ul>
+          <li>Add support for exporting locked notes.</li>
+        </ul>
+        <p>Fixes &amp; improvements</p>
+        <ul>
+          <li>Fix invalid zip error when downloading attachments in bulk</li>
+          <li>Fix error when downloading large attachments/images</li>
+          <li>Fix account deletion</li>
+          <li>Fix various issues with exporting notes</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.5.3" date="2023-06-21" urgency="medium" type="stable">
       <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.5.3</url>
       <description>
