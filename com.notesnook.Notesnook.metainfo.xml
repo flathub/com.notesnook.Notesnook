@@ -71,6 +71,16 @@
     <internet>offline-only</internet>
   </supports>
   <releases>
+   <release version="2.5.6" date="2023-06-30" urgency="high" type="stable">
+      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.5.6</url>
+      <description>
+        <p>Fixes &amp; improvements</p>
+        <ul>
+          <li>Fix subscription plan not changing from monthly</li>
+          <li>Fix backups not getting saved on desktop app</li>
+        </ul>
+      </description>
+    </release>
    <release version="2.5.5" date="2023-06-26" urgency="high" type="stable">
       <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.5.5</url>
       <description>
