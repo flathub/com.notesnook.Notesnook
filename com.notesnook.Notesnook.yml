@@ -23,8 +23,7 @@ finish-args:
   # Backups
   - --filesystem=xdg-documents/Notesnook:create
   # System Tray Icon
-  - --talk-name=org.freedesktop.StatusNotifierWatcher
-  - --talk-name=org.freedesktop.StatusNotifierItem
+  - --talk-name=org.kde.StatusNotifierWatcher
   # Notifications
   - --talk-name=org.freedesktop.Notifications
 build-options:
