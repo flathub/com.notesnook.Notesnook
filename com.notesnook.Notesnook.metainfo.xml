@@ -71,6 +71,20 @@
     <internet>offline-only</internet>
   </supports>
   <releases>
+   <release version="2.5.8" date="2023-07-18" urgency="high" type="stable">
+      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.5.8</url>
+      <description>
+        <p>Fixes &amp; improvements</p>
+        <ul>
+          <li>Add support for automatic updates</li>
+          <li>Fix service worker to allow Notesnook to behave as a PWA again</li>
+          <li>Fix Mastodon link in Settings</li>
+          <li>Fix tray icons not loading/invisible tray icon</li>
+          <li>Improve export performance for plain text exports</li>
+          <li>Fix corrupted images &amp; attachments when uploaded from the Desktop app</li>
+        </ul>
+      </description>
+    </release>
    <release version="2.5.6" date="2023-06-30" urgency="high" type="stable">
       <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.5.6</url>
       <description>
