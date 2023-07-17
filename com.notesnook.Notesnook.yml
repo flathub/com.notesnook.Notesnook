@@ -43,12 +43,12 @@ modules:
       - |
         npm install --omit=dev --offline --ignore-scripts
 
-        node_modules/.bin/lerna bootstrap --scope=@notesnook/desktop --scope=@notesnook/crypto --scope=@notesnook/sodium -- --offline
+        npm run bootstrap -- --scope=desktop --offline
 
         cp -r apps/web/build/ apps/desktop/build/
 
         npx --offline nx run release --project @notesnook/desktop
-        
+
         cd apps/desktop/
 
         npx --offline electron-builder $ELECTRON_BUILDER_ARCH_ARGS --linux --dir
@@ -72,10 +72,10 @@ modules:
       - generated-sources.json
       - type: git
         url: https://github.com/streetwriters/notesnook.git
-        commit: 194556a0a121fc899812d04926627f46f7843eaa
+        commit: d95aba8cdd2d867ffd32a54e47c611d7c0e7770c
       - type: archive
-        url: https://github.com/streetwriters/notesnook/releases/download/v2.5.6/notesnook_build_v2.5.6.zip
-        sha256: 2204c32d0d96b500b353d3c8af2569b76a191cbdce6ef3ff6ca3df4b9e5da007
+        url: https://github.com/streetwriters/notesnook/releases/download/v2.5.8/notesnook_build_v2.5.8.zip
+        sha256: aea99f1d94a6f9e73180b6b5aa947761317c28557b18705021bb17ce0a272f22
         strip-components: 0
       - type: file
         path: com.notesnook.Notesnook.desktop
