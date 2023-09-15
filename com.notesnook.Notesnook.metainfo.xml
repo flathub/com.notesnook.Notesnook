@@ -71,39 +71,10 @@
     <internet>offline-only</internet>
   </supports>
   <releases>
-    <release version="2.6.1" date="2023-08-09" urgency="high" type="stable">
-      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.6.1</url>
+    <release version="2.6.4" date="2023-09-15" urgency="high" type="stable">
+      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.6.4</url>
       <description>
-        <p>Features &amp; new stuff</p>
-        <ul>
-          <li>Custom themes</li>
-          <li>Much imporved copy/pasting</li>
-          <li>Syntax highlighting and rendered math in PDF/HTML exports</li>
-          <li>Much more reliable upload of attachments</li>
-          <li>Show keyboard shortcuts for editor tools where possible</li>
-          <li>Add support for copying link &amp; link text in directly from the Link toolbar in the editor</li>
-        </ul>
-        <p>Fixes &amp; improvements</p>
-        <ul>
-          <li>Fixed issue where entering Monograph password closed the Publish dialog</li>
-          <li>Copy button on code blocks will no longer be disabled in readonly mode</li>
-          <li>Fixed color picker height when the editor toolbar is at the bottom</li>
-          <li>Pressing the &quot;Tab&quot; key in the Title will now move the focus to the editor</li>
-          <li>Respect empty paragraph lines when printing or exporting to PDF/HTML</li>
-          <li>Don&#39;t show &quot;Failed to unlock vault&quot; error when exporting a single unlocked note</li>
-          <li>All input fields now follow the current color scheme</li>
-          <li>Prevent unintentional saving when opening a note</li>
-          <li>Respect text direction when adding blocks like heading, lists etc.</li>
-          <li>Fix &quot;Dynamic module import is disabled&quot; error when logging in on Firefox ESR &amp; Tor Browser</li>
-          <li>Prevent scroll jump &amp; selection loss when toggling focus mode</li>
-          <li>Fixed issue where caret would keep jumping to the end when making edits in the sticky editor title</li>
-          <li>Overhaul the logger implementation to be less IO intensive</li>
-          <li>Fix spell checker on desktop app</li>
-          <li>Fixed issue where embeds would not render in readonly mode</li>
-          <li>Format time &amp; date on reminders according to the format specified in the Settings</li>
-          <li>bring app to front if user tries to start a new instance of Notesnook</li>
-          <li>Show progress when restoring large encrypted backups</li>
-        </ul>
+        <p>Please read the full release notes to see what changed.</p>
       </description>
     </release>
   </releases>
