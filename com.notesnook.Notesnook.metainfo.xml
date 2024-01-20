@@ -71,8 +71,8 @@
     <internet>offline-only</internet>
   </supports>
   <releases>
-    <release version="2.6.13" date="2023-12-22" urgency="low" type="stable">
-      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.6.13</url>
+    <release version="2.6.14" date="2024-01-20" urgency="low" type="stable">
+      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.6.14</url>
       <description>
         <p>Please read the full release notes to see what changed.</p>
       </description>
