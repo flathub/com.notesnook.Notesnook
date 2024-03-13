@@ -2,13 +2,12 @@
 <component type="desktop-application">
   <id>com.notesnook.Notesnook</id>
   <name>Notesnook</name>
-  <summary>
-    A fully open source &amp; end-to-end encrypted note taking alternative to
-    Evernote
-  </summary>
+  <summary>A fully open source &amp; end-to-end encrypted note taking alternative to Evernote</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
-  <developer_name>Streetwriters</developer_name>
+  <developer id="co.streetwriters">
+    <name>Streetwriters</name>
+  </developer>
   <description>
     <p>
       Notesnook is a free (as in speech) &amp; open source note taking app
@@ -47,9 +46,12 @@
   <screenshots>
     <screenshot type="default">
       <image>https://notesnook.com/screenshots/desktop/1.jpg</image>
+      <caption>Notesnook is an open source and end to end encrypted note taking app.</caption>
     </screenshot>
     <screenshot type="default">
       <image>https://notesnook.com/screenshots/desktop/2.jpg</image>
+      <caption>Notesnook has a robus editor which supports tables, lists, tasks, images &amp;
+        embeds.</caption>
     </screenshot>
   </screenshots>
   <categories>
@@ -71,8 +73,8 @@
     <internet>offline-only</internet>
   </supports>
   <releases>
-    <release version="2.6.14" date="2024-01-20" urgency="low" type="stable">
-      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.6.14</url>
+    <release version="2.6.16" date="2024-03-06" urgency="low" type="stable">
+      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.6.16</url>
       <description>
         <p>Please read the full release notes to see what changed.</p>
       </description>
