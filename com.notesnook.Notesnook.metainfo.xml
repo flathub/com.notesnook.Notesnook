@@ -73,8 +73,8 @@
     <internet>offline-only</internet>
   </supports>
   <releases>
-    <release version="2.6.16" date="2024-03-06" urgency="low" type="stable">
-      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.6.16</url>
+    <release version="2.6.17" date="2024-03-21" urgency="low" type="stable">
+      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v2.6.17</url>
       <description>
         <p>Please read the full release notes to see what changed.</p>
       </description>
