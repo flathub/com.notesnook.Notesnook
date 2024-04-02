@@ -1,11 +1,11 @@
 app-id: com.notesnook.Notesnook
 runtime: org.freedesktop.Platform
-runtime-version: "22.08"
+runtime-version: "23.08"
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: "22.08"
+base-version: "23.08"
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.node16
+  - org.freedesktop.Sdk.Extension.node20
 command: start-notesnook
 separate-locales: false
 finish-args:
@@ -27,7 +27,7 @@ finish-args:
   # Notifications
   - --talk-name=org.freedesktop.Notifications
 build-options:
-  append-path: /usr/lib/sdk/node16/bin
+  append-path: /usr/lib/sdk/node20/bin
   env:
     NPM_CONFIG_LOGLEVEL: info
 modules:
@@ -38,6 +38,8 @@ modules:
         XDG_CACHE_HOME: /run/build/notesnook/flatpak-node/cache
         npm_config_cache: /run/build/notesnook/flatpak-node/npm-cache
         npm_config_offline: "true"
+        npm_config_runtime: "electron"
+        npm_config_nodedir: /run/build/notesnook/flatpak-node/cache/node-gyp/28.2.1
     build-commands:
       - ./flatpak-node/electron-builder-arch-args.sh
       - |
@@ -72,10 +74,10 @@ modules:
       - generated-sources.json
       - type: git
         url: https://github.com/streetwriters/notesnook.git
-        commit: aa2a8ab6f408729cc5ca6400226e23d238e4db7f
+        commit: 9c158dfa5353b1da30feb917ff3e8ca362a82854
       - type: archive
-        url: https://github.com/streetwriters/notesnook/releases/download/v2.6.17/notesnook_build_v2.6.17.zip
-        sha256: 38bf43cac3bcbd9b59d3dd8c65824086fd06042f927a7b88db8347fe1731a124
+        url: https://github.com/streetwriters/notesnook/releases/download/v3.0.12-beta/notesnook_build_v3.0.12-beta.zip
+        sha256: db58efb272cda1ceb627966aa0cada3aab95cf66d9f17abd6ce1dcabe9f23517
         strip-components: 0
       - type: file
         path: com.notesnook.Notesnook.desktop
