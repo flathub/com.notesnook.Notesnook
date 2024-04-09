@@ -73,10 +73,11 @@
     <internet>offline-only</internet>
   </supports>
   <releases>
-    <release version="3.0.12-rc4" date="2024-04-02" urgency="low" type="development">
-      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v3.0.12-beta</url>
+    <release version="3.0.13-rc4" date="2024-04-09" urgency="low" type="development">
+      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v3.0.13-beta</url>
       <description>
-        <p>This is a beta release, and as such, contains bugs and unexpected behaviour. Use with caution.</p>
+        <p>This is a beta release, and as such, contains bugs and unexpected behaviour. Use with
+          caution.</p>
         <p>Please read the full release notes to see what changed.</p>
       </description>
     </release>
