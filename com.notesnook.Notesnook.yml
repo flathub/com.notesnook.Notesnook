@@ -26,6 +26,8 @@ finish-args:
   - --talk-name=org.kde.StatusNotifierWatcher
   # Notifications
   - --talk-name=org.freedesktop.Notifications
+  # required to fix cursor scaling on wayland
+  - --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons
 build-options:
   append-path: /usr/lib/sdk/node20/bin
   env:
@@ -74,10 +76,10 @@ modules:
       - generated-sources.json
       - type: git
         url: https://github.com/streetwriters/notesnook.git
-        commit: a12a3fbdc8d0c43905f48c2e647ec384aec53ee3
+        commit: 580c83687e8c87c213e75087ec08af5f5bee18ca
       - type: archive
-        url: https://github.com/streetwriters/notesnook/releases/download/v3.0.13-beta/notesnook_build_v3.0.13-beta.zip
-        sha256: e03ee540cf5e116a889585cdf94bcace12cc0ebccc5a1fdbd73dd044c6ad1549
+        url: https://github.com/streetwriters/notesnook/releases/download/v3.0.14-beta/notesnook_build_v3.0.14-beta.zip
+        sha256: 9f2f973a01aefdfc10e450bb43e1e0a2e87664657379fa3897da7f0e307aa0a9
         strip-components: 0
       - type: file
         path: com.notesnook.Notesnook.desktop
