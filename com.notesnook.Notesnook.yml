@@ -1,11 +1,11 @@
 app-id: com.notesnook.Notesnook
 runtime: org.freedesktop.Platform
-runtime-version: "22.08"
+runtime-version: "23.08"
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: "22.08"
+base-version: "23.08"
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.node16
+  - org.freedesktop.Sdk.Extension.node20
 command: start-notesnook
 separate-locales: false
 finish-args:
@@ -26,8 +26,10 @@ finish-args:
   - --talk-name=org.kde.StatusNotifierWatcher
   # Notifications
   - --talk-name=org.freedesktop.Notifications
+  # required to fix cursor scaling on wayland
+  - --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons
 build-options:
-  append-path: /usr/lib/sdk/node16/bin
+  append-path: /usr/lib/sdk/node20/bin
   env:
     NPM_CONFIG_LOGLEVEL: info
 modules:
@@ -38,6 +40,8 @@ modules:
         XDG_CACHE_HOME: /run/build/notesnook/flatpak-node/cache
         npm_config_cache: /run/build/notesnook/flatpak-node/npm-cache
         npm_config_offline: "true"
+        npm_config_runtime: "electron"
+        npm_config_nodedir: /run/build/notesnook/flatpak-node/cache/node-gyp/28.2.1
     build-commands:
       - ./flatpak-node/electron-builder-arch-args.sh
       - |
@@ -72,10 +76,10 @@ modules:
       - generated-sources.json
       - type: git
         url: https://github.com/streetwriters/notesnook.git
-        commit: aa2a8ab6f408729cc5ca6400226e23d238e4db7f
+        commit: 583d585b2f2f42c537c68983a030a28530f23bf1
       - type: archive
-        url: https://github.com/streetwriters/notesnook/releases/download/v2.6.17/notesnook_build_v2.6.17.zip
-        sha256: 38bf43cac3bcbd9b59d3dd8c65824086fd06042f927a7b88db8347fe1731a124
+        url: https://github.com/streetwriters/notesnook/releases/download/v3.0.0/notesnook_build_v3.0.0.zip
+        sha256: 0cc69042a4c63437fd2eb3b86559e7ef417f4a23e67259183b71f64fc9ec2adf
         strip-components: 0
       - type: file
         path: com.notesnook.Notesnook.desktop
