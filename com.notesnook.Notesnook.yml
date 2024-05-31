@@ -79,7 +79,7 @@ modules:
         commit: c9adaa2442aa970809d19ba919406ea5f540e50b
       - type: archive
         url: https://github.com/streetwriters/notesnook/releases/download/v3.0.6/notesnook_build_v3.0.6.zip
-        sha256: c48e7384ec8fc979056a3bd0547eea63a160c5a6c283a358ddc4125394b24d67 
+        sha256: c1f7498ba8fccd255ed88fbce529c05e2c79e01af975770858b6335202b2c41a 
         strip-components: 0
       - type: file
         path: com.notesnook.Notesnook.desktop
