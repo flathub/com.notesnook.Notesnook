@@ -41,7 +41,7 @@ modules:
         npm_config_cache: /run/build/notesnook/flatpak-node/npm-cache
         npm_config_offline: "true"
         npm_config_runtime: "electron"
-        npm_config_nodedir: /run/build/notesnook/flatpak-node/cache/node-gyp/29.3.1
+        npm_config_nodedir: /run/build/notesnook/flatpak-node/cache/node-gyp/30.5.1
     build-commands:
       - ./flatpak-node/electron-builder-arch-args.sh
       - |
