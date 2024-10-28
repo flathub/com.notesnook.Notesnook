@@ -78,8 +78,8 @@ modules:
         url: https://github.com/streetwriters/notesnook.git
         commit: 5f0d14f01ca6ed19120acc29e696c3e65815f350
       - type: archive
-        url: https://github.com/streetwriters/notesnook/releases/download/v3.0.18/notesnook_build_v3.0.18.zip
-        sha256: 6fbcbea5bf6c087019eabe196136174b9c4c3141616c0d8dd52b6f8771fd1efb
+        url: https://github.com/streetwriters/notesnook/releases/download/v3.0.19/notesnook_build_v3.0.19.zip
+        sha256: ba2dad822e78f11c151120586982b67eb062b05a74bff159bf2402e7165bff2a
         strip-components: 0
       - type: file
         path: com.notesnook.Notesnook.desktop
