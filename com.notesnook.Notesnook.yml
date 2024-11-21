@@ -13,7 +13,7 @@ finish-args:
   # Wayland access
   - --socket=wayland
   # X11 fallback socket
-  - --socket=x11-fallback
+  - --socket=fallback-x11
   # audio
   - --socket=pulseaudio
   # required for Electron hardware acceleration
