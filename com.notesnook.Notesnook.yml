@@ -10,10 +10,10 @@ command: start-notesnook
 separate-locales: false
 finish-args:
   - --share=ipc
-  # X11 access
-  - --socket=x11
   # Wayland access
   - --socket=wayland
+  # X11 fallback socket
+  - --socket=x11-fallback
   # audio
   - --socket=pulseaudio
   # required for Electron hardware acceleration
