@@ -76,8 +76,8 @@ modules:
       - generated-sources.json
       - type: git
         url: https://github.com/streetwriters/notesnook
-        commit: 5f0d14f01ca6ed19120acc29e696c3e65815f350
-        tag: 3.0.19
+        commit: 53a1e2cab38bd2776ca9f40e3f9fd27bfe822191
+        tag: v3.0.19
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
