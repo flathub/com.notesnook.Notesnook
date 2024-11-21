@@ -88,4 +88,5 @@ modules:
       - type: script
         dest-filename: start-notesnook.sh
         commands:
+          - export TMPDIR="$XDG_RUNTIME_DIR/app/$FLATPAK_ID"
           - zypak-wrapper.sh /app/bin/notesnook --ozone-platform-hint=auto --enable-features=WaylandWindowDecorations "$@"
