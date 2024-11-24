@@ -73,7 +73,7 @@
     <internet>offline-only</internet>
   </supports>
   <releases>
-    <release version="3.0.22" date="2024-11-23" urgency="low" type="stable">
+    <release version="3.0.22-hotfix.1" date="2024-11-24" urgency="high" type="stable">
       <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v3.0.22</url>
       <description>
         <p>Please read the full release notes to see what changed.</p>
