@@ -45,6 +45,8 @@ modules:
     build-commands:
       - ./flatpak-node/electron-builder-arch-args.sh
       - |
+        set -e
+
         npm install --omit=dev --offline --ignore-scripts
 
         cd apps/desktop/
