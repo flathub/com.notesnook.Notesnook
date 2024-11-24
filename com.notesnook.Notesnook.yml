@@ -47,13 +47,11 @@ modules:
       - |
         npm install --omit=dev --offline --ignore-scripts
 
-        npm run bootstrap -- --scope=desktop --offline
-
-        cp -r apps/web/build/ apps/desktop/build/
-
-        npx --offline nx run release --project @notesnook/desktop
-
         cd apps/desktop/
+
+        npm i --offline --legacy-peer-deps --ignore-scripts
+
+        npx patch-package
 
         npx --offline electron-builder $ELECTRON_BUILDER_ARCH_ARGS --linux --dir
 
@@ -76,11 +74,12 @@ modules:
       - generated-sources.json
       - type: git
         url: https://github.com/streetwriters/notesnook.git
-        commit: 7f2c8ca05a82cbdaa6b9356005c6f237a147eae3
+        commit: d08a485111a40f3fbce56803ce96dd4964f6cf56
       - type: archive
         url: https://github.com/streetwriters/notesnook/releases/download/v3.0.22/notesnook_build_v3.0.22.zip
-        sha256: 1fd8b57dad184ae085b1f4a5f470257da9ca71944f1e3f9499d4f7a566871098
+        sha256: 3a0b2b07e86163f3079550e4d0ee206e2a8289cac03fc69796ba0de67d5d591b
         strip-components: 0
+        dest: apps/desktop/build
       - type: file
         path: com.notesnook.Notesnook.desktop
       - type: file
