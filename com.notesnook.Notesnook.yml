@@ -1,19 +1,19 @@
 app-id: com.notesnook.Notesnook
 runtime: org.freedesktop.Platform
-runtime-version: "23.08"
+runtime-version: "24.08"
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: "23.08"
+base-version: "24.08"
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.node20
 command: start-notesnook
 separate-locales: false
 finish-args:
   - --share=ipc
-  # X11 access
-  - --socket=x11
   # Wayland access
   - --socket=wayland
+  # X11 fallback socket
+  - --socket=fallback-x11
   # audio
   - --socket=pulseaudio
   # required for Electron hardware acceleration
@@ -41,19 +41,19 @@ modules:
         npm_config_cache: /run/build/notesnook/flatpak-node/npm-cache
         npm_config_offline: "true"
         npm_config_runtime: "electron"
-        npm_config_nodedir: /run/build/notesnook/flatpak-node/cache/node-gyp/30.5.1
+        npm_config_nodedir: /run/build/notesnook/flatpak-node/cache/node-gyp/31.7.4
     build-commands:
       - ./flatpak-node/electron-builder-arch-args.sh
       - |
+        set -e
+
         npm install --omit=dev --offline --ignore-scripts
 
-        npm run bootstrap -- --scope=desktop --offline
-
-        cp -r apps/web/build/ apps/desktop/build/
-
-        npx --offline nx run release --project @notesnook/desktop
-
         cd apps/desktop/
+
+        npm i --offline --legacy-peer-deps --ignore-scripts
+
+        npx patch-package
 
         npx --offline electron-builder $ELECTRON_BUILDER_ARCH_ARGS --linux --dir
 
@@ -76,15 +76,16 @@ modules:
       - generated-sources.json
       - type: git
         url: https://github.com/streetwriters/notesnook
-        commit: 53a1e2cab38bd2776ca9f40e3f9fd27bfe822191
-        tag: v3.0.19
+        commit: d08a485111a40f3fbce56803ce96dd4964f6cf56
+        tag: v3.0.22
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
       - type: archive
-        url: https://github.com/streetwriters/notesnook/releases/download/v3.0.19/notesnook_build_v3.0.19.zip
-        sha256: ba2dad822e78f11c151120586982b67eb062b05a74bff159bf2402e7165bff2a
+        url: https://github.com/streetwriters/notesnook/releases/download/v3.0.22/notesnook_build_v3.0.22.zip
+        sha256: 3a0b2b07e86163f3079550e4d0ee206e2a8289cac03fc69796ba0de67d5d591b
         strip-components: 0
+        dest: apps/desktop/build
         x-checker-data:
           type: json
           url: https://api.github.com/repos/streetwriters/notesnook/releases/latest
@@ -97,4 +98,5 @@ modules:
       - type: script
         dest-filename: start-notesnook.sh
         commands:
+          - export TMPDIR="$XDG_RUNTIME_DIR/app/$FLATPAK_ID"
           - zypak-wrapper.sh /app/bin/notesnook --ozone-platform-hint=auto --enable-features=WaylandWindowDecorations "$@"
