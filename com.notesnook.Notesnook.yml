@@ -49,11 +49,13 @@ modules:
 
         npm install --omit=dev --offline --ignore-scripts
 
-        npm run bootstrap -- --scope=desktop --offline
-
-        npx --offline nx run release --project @notesnook/desktop
-
         cd apps/desktop/
+
+        npm i --offline --legacy-peer-deps --ignore-scripts
+
+        npx patch-package
+
+        npm run bundle
 
         npx --offline electron-builder $ELECTRON_BUILDER_ARCH_ARGS --linux --dir
 
