@@ -55,8 +55,6 @@ modules:
 
         npx patch-package
 
-        npm run bundle
-
         npx --offline electron-builder $ELECTRON_BUILDER_ARCH_ARGS --linux --dir
 
         # Bundle app and dependencies
