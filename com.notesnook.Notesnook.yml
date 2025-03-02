@@ -55,7 +55,7 @@ modules:
 
         npx patch-package
 
-        npx --offline electron-builder $ELECTRON_BUILDER_ARCH_ARGS --linux --dir
+        npx --offline electron-builder --config electron-builder.config.js $ELECTRON_BUILDER_ARCH_ARGS --linux --dir
 
         # Bundle app and dependencies
         cp -r output/linux-*unpacked/* /app/bin/
