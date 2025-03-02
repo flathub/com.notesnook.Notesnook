@@ -55,7 +55,7 @@ modules:
 
         npx patch-package
 
-        npx --offline electron-builder $ELECTRON_BUILDER_ARCH_ARGS --linux --dir
+        npx --offline electron-builder --config electron-builder.config.js $ELECTRON_BUILDER_ARCH_ARGS --linux --dir
 
         # Bundle app and dependencies
         cp -r output/linux-*unpacked/* /app/bin/
@@ -76,10 +76,10 @@ modules:
       - generated-sources.json
       - type: git
         url: https://github.com/streetwriters/notesnook.git
-        commit: 00250c6669ab0f4751b19bbcb6082004359479f2
+        commit: 89806148b2ba2a8a0cd8fe3f0fd8d29d12f55e45
       - type: archive
-        url: https://github.com/streetwriters/notesnook/releases/download/v3.0.28/notesnook_build_v3.0.28.zip
-        sha256: 1747826a41afd2cfecd0afaa44c3c029101feeeff856cfa79ae89cecbfd063ef
+        url: https://github.com/streetwriters/notesnook/releases/download/v3.0.29/notesnook_build_v3.0.29.zip
+        sha256: 514a281a8a64d52f252a408eccde40fa0eda65cd0508e6ee06a5f23a30477e46
         strip-components: 0
       - type: file
         path: com.notesnook.Notesnook.desktop
