@@ -48,6 +48,8 @@ modules:
         set -e
 
         npm install --omit=dev --offline --ignore-scripts
+        
+        npm run bootstrap -- --scope=desktop
 
         cd apps/desktop/
 
