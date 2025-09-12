@@ -35,7 +35,7 @@ jobs:
           args: --edit-only ${{ env.FLATPAK_ID }}.yml
 
       - name: download node sources
-        run: wget https://github.com/streetwriters/notesnook/releases/latest/download/generated-sources.json
+        run: wget https://github.com/streetwriters/notesnook/releases/latest/download/generated-sources.json -O generated-sources.json
 
       - name: reset
         run: |
