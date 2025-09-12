@@ -48,7 +48,7 @@ modules:
         set -e
 
         npm install --omit=dev --offline --ignore-scripts
-        
+
         npm run bootstrap -- --scope=desktop
 
         cd apps/desktop/
@@ -77,12 +77,21 @@ modules:
     sources:
       - generated-sources.json
       - type: git
-        url: https://github.com/streetwriters/notesnook.git
+        url: https://github.com/streetwriters/notesnook
         commit: dd42b82dbf502181531c1ecc652277f835b32b3e
+        tag: v3.2.3
+        x-checker-data:
+          type: git
+          tag-pattern: ^v([\d.]+)$
       - type: archive
         url: https://github.com/streetwriters/notesnook/releases/download/v3.2.3/notesnook_build_v3.2.3.zip
         sha256: dc17afbfe2727a5261e0939dafe07429f2f779448675af3512ef32af7a9699ba
         strip-components: 0
+        x-checker-data:
+          type: json
+          url: https://api.github.com/repos/streetwriters/notesnook/releases/latest
+          version-query: .tag_name
+          url-query: '"https://github.com/streetwriters/notesnook/releases/download/" + $version + "/notesnook_build_" + $version + ".zip"'
       - type: file
         path: com.notesnook.Notesnook.desktop
       - type: file
