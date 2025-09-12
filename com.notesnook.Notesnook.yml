@@ -1,9 +1,9 @@
 app-id: com.notesnook.Notesnook
 runtime: org.freedesktop.Platform
-runtime-version: "24.08"
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: "24.08"
+base-version: '24.08'
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.node20
 command: start-notesnook
@@ -39,8 +39,8 @@ modules:
       env:
         XDG_CACHE_HOME: /run/build/notesnook/flatpak-node/cache
         npm_config_cache: /run/build/notesnook/flatpak-node/npm-cache
-        npm_config_offline: "true"
-        npm_config_runtime: "electron"
+        npm_config_offline: 'true'
+        npm_config_runtime: electron
         npm_config_nodedir: /run/build/notesnook/flatpak-node/cache/node-gyp/34.5.6
     build-commands:
       - ./flatpak-node/electron-builder-arch-args.sh
@@ -78,20 +78,21 @@ modules:
       - generated-sources.json
       - type: git
         url: https://github.com/streetwriters/notesnook
-        commit: dd42b82dbf502181531c1ecc652277f835b32b3e
-        tag: v3.2.3
+        commit: 5c120676e106932b31ff9d935c68249a1e29cb19
+        tag: v3.2.4
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
       - type: archive
-        url: https://github.com/streetwriters/notesnook/releases/download/v3.2.3/notesnook_build_v3.2.3.zip
-        sha256: dc17afbfe2727a5261e0939dafe07429f2f779448675af3512ef32af7a9699ba
+        url: https://github.com/streetwriters/notesnook/releases/download/v3.2.4/notesnook_build_v3.2.4.zip
+        sha256: d9a525fd956afae966e58d17154e5ceef0f5772138cc472636275630a232f159
         strip-components: 0
         x-checker-data:
           type: json
           url: https://api.github.com/repos/streetwriters/notesnook/releases/latest
           version-query: .tag_name
-          url-query: '"https://github.com/streetwriters/notesnook/releases/download/" + $version + "/notesnook_build_" + $version + ".zip"'
+          url-query: '"https://github.com/streetwriters/notesnook/releases/download/"
+            + $version + "/notesnook_build_" + $version + ".zip"'
       - type: file
         path: com.notesnook.Notesnook.desktop
       - type: file
@@ -100,4 +101,5 @@ modules:
         dest-filename: start-notesnook.sh
         commands:
           - export TMPDIR="$XDG_RUNTIME_DIR/app/$FLATPAK_ID"
-          - zypak-wrapper.sh /app/bin/notesnook --ozone-platform-hint=auto --enable-features=WaylandWindowDecorations "$@"
+          - zypak-wrapper.sh /app/bin/notesnook --ozone-platform-hint=auto --enable-features=WaylandWindowDecorations
+            "$@"
