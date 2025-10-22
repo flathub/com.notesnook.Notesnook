@@ -73,14 +73,8 @@
     <internet>offline-only</internet>
   </supports>
   <releases>
-    <release version="v3.3.2" date="2025-10-20">
-      <description></description>
-    </release>
-    <release version="v3.2.4" date="2025-09-12">
-      <description/>
-    </release>
-    <release version="3.2.3" date="2025-06-27" urgency="low" type="stable">
-      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v3.2.3</url>
+    <release version="v3.3.2" date="2025-10-22">
+      <url type="details">https://github.com/streetwriters/notesnook/releases/tag/v3.3.2</url>
       <description>
         <p>Please read the full release notes to see what changed.</p>
       </description>
