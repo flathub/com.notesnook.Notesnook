@@ -1,9 +1,9 @@
 app-id: com.notesnook.Notesnook
 runtime: org.freedesktop.Platform
-runtime-version: "24.08"
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: "24.08"
+base-version: '24.08'
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.node20
 command: start-notesnook
@@ -39,7 +39,7 @@ modules:
       env:
         XDG_CACHE_HOME: /run/build/notesnook/flatpak-node/cache
         npm_config_cache: /run/build/notesnook/flatpak-node/npm-cache
-        npm_config_offline: "true"
+        npm_config_offline: 'true'
         npm_config_runtime: electron
         npm_config_nodedir: /run/build/notesnook/flatpak-node/cache/node-gyp/37.6.1
     build-commands:
@@ -78,21 +78,20 @@ modules:
       - generated-sources.json
       - type: git
         url: https://github.com/streetwriters/notesnook
-        commit: d9c57162f192321ee086211975e06bccb5272ce2
-        tag: v3.3.2
+        commit: 015453a40bba375527f40fa7865f3ef8d04e63ce
+        tag: v3.3.5
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
       - type: archive
-        url: https://github.com/streetwriters/notesnook/releases/download/v3.3.2/notesnook_build_v3.3.2.zip
-        sha256: 71d07152ac618f2d78beadc3217dca0d2b154f493f2c5d42856585242b19853c
+        url: https://github.com/streetwriters/notesnook/releases/download/v3.3.5/notesnook_build_v3.3.5.zip
+        sha256: 87f6a18e8422786cf364360ea92369b17e3369101a11da8af6575dcbb6d1d71c
         strip-components: 0
         x-checker-data:
           type: json
           url: https://api.github.com/repos/streetwriters/notesnook/releases/latest
           version-query: .tag_name
-          url-query:
-            '"https://github.com/streetwriters/notesnook/releases/download/"
+          url-query: '"https://github.com/streetwriters/notesnook/releases/download/"
             + $version + "/notesnook_build_" + $version + ".zip"'
       - type: file
         path: com.notesnook.Notesnook.desktop
