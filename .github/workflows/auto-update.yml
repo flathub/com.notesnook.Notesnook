@@ -39,7 +39,7 @@ jobs:
 
       - name: reset
         run: |
-          git checkout -- ${FLATPAK_ID}.yml *.xml generated-sources.json
+          git checkout -- ${FLATPAK_ID}.yml *.xml
 
       - uses: docker://ghcr.io/flathub/flatpak-external-data-checker:latest
         name: recheck and open pr
