@@ -2019,15 +2019,15 @@
     },
     {
         "type": "inline",
-        "contents": "8c8d2eee235c7a30d886d7d20d5d1798d137cc2a\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/ci-info/-/ci-info-3.8.0.tgz\", \"integrity\": \"sha512-eXTggHWSooYhq49F2opQhuHWgzucfF2YgODK4e1566GQs5BIfP30B0oenwBJHfWxAs2fyPB1s7Mg949zLf61Yw==\", \"time\": 0, \"size\": 7327, \"metadata\": {\"url\": \"https://registry.npmjs.org/ci-info/-/ci-info-3.8.0.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
-        "dest-filename": "2410a7966f2e87b7076bac2b71bc74e99b5c81dc5568bb59eaa985d222fc",
-        "dest": "flatpak-node/npm-cache/_cacache/index-v5/53/83"
+        "contents": "8b8201e5be967801c5b3d0ca26164628419d41de\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/@yarnpkg%2flockfile\", \"integrity\": \"sha256-zosJikp3yDcyffDj1B+L3fYrJKRptxvvw8QBfNEaTnw=\", \"time\": 0, \"size\": 2300, \"metadata\": {\"url\": \"https://registry.npmjs.org/@yarnpkg%2flockfile\", \"reqHeaders\": {\"accept\": \"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*\"}, \"resHeaders\": {}}}",
+        "dest-filename": "9fdccd94b1303d71d23311728dbf52db19e827c401bb21c30a5dbd4cfc3a",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/b7/d9"
     },
     {
         "type": "inline",
-        "contents": "8c992dd507e85168e79661d82a534c4e82c39238\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/@yarnpkg%2flockfile\", \"integrity\": \"sha256-+soLoHd+Ohxlxh4L4MG51xltLu7pErC5JSkjBBp4lRo=\", \"time\": 0, \"size\": 2300, \"metadata\": {\"url\": \"https://registry.npmjs.org/@yarnpkg%2flockfile\", \"reqHeaders\": {\"accept\": \"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*\"}, \"resHeaders\": {}}}",
-        "dest-filename": "9fdccd94b1303d71d23311728dbf52db19e827c401bb21c30a5dbd4cfc3a",
-        "dest": "flatpak-node/npm-cache/_cacache/index-v5/b7/d9"
+        "contents": "8c8d2eee235c7a30d886d7d20d5d1798d137cc2a\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/ci-info/-/ci-info-3.8.0.tgz\", \"integrity\": \"sha512-eXTggHWSooYhq49F2opQhuHWgzucfF2YgODK4e1566GQs5BIfP30B0oenwBJHfWxAs2fyPB1s7Mg949zLf61Yw==\", \"time\": 0, \"size\": 7327, \"metadata\": {\"url\": \"https://registry.npmjs.org/ci-info/-/ci-info-3.8.0.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
+        "dest-filename": "2410a7966f2e87b7076bac2b71bc74e99b5c81dc5568bb59eaa985d222fc",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/53/83"
     },
     {
         "type": "inline",
@@ -2929,10 +2929,10 @@
     },
     {
         "type": "inline",
-        "contents": "eyJ2ZXJzaW9ucyI6IHsiMS4xLjAiOiB7Im5hbWUiOiAiQHlhcm5wa2cvbG9ja2ZpbGUiLCAidmVyc2lvbiI6ICIxLjEuMCIsICJkZXNjcmlwdGlvbiI6ICJUaGUgcGFyc2VyL3N0cmluZ2lmaWVyIGZvciBZYXJuIGxvY2tmaWxlcy4iLCAibWFpbiI6ICJpbmRleC5qcyIsICJyZXBvc2l0b3J5IjogeyJ0eXBlIjogImdpdCIsICJ1cmwiOiAiaHR0cHM6Ly9naXRodWIuY29tL3lhcm5wa2cveWFybi9ibG9iL21hc3Rlci9wYWNrYWdlcy9sb2NrZmlsZSJ9LCAia2V5d29yZHMiOiBbInlhcm4iLCAieWFybnBrZyIsICJsb2NrZmlsZSIsICJkZXBlbmRlbmN5IiwgIm5wbSJdLCAibGljZW5zZSI6ICJCU0QtMi1DbGF1c2UiLCAiX2lkIjogIkB5YXJucGtnL2xvY2tmaWxlQDEuMS4wIiwgImRpc3QiOiB7InNoYXN1bSI6ICJlNzdhOTdmYmQzNDViNzZkODMyNDVlZGNkMTdkMzkzYjFiNDFmYjMxIiwgInRhcmJhbGwiOiAiaHR0cHM6Ly9yZWdpc3RyeS5ucG1qcy5vcmcvQHlhcm5wa2cvbG9ja2ZpbGUvLS9sb2NrZmlsZS0xLjEuMC50Z3oiLCAiaW50ZWdyaXR5IjogInNoYTUxMi1HcFN3dnlYT2NPT2xWNzB2Ym56amo0Zlc1eFcvRmRVRjZuUUV0MUVOeTdtNFpDY3ppMSsvYnVWVVBBcW1HZnF6bnNPUk5GelVNamN0VElwOGE5dHVDUT09IiwgImZpbGVDb3VudCI6IDQsICJ1bnBhY2tlZFNpemUiOiAyNzk3NzMsICJucG0tc2lnbmF0dXJlIjogIi0tLS0tQkVHSU4gUEdQIFNJR05BVFVSRS0tLS0tXHJcblZlcnNpb246IE9wZW5QR1AuanMgdjMuMC40XHJcbkNvbW1lbnQ6IGh0dHBzOi8vb3BlbnBncGpzLm9yZ1xyXG5cclxud3NGY0JBRUJDQUFRQlFKYmxuTzNDUkE5VFZzU0FuWldhZ0FBRFN3UUFLTis1dUJvbE9KenhpeWZJZkNiXG5PazdXMkxmUFZwMVJ1Q1J0cFZnWVMxR3RHRkUyZC9BN29UNmZUdHBWemZyRXRMalBtN2V3MFBBcEVWcjdcblZjTjdBdE5ieHM5NHVOOW5va0ZaOXp5aHFIVXJSRFl5Vm9jQXhEbU1ia1dHOCtVK3k2R0RzODVmTEptUFxuUDBlMTFMbXV3bHEvUnkyQnY4dDl6K2g3NE92d0Zndmx5RDNNU09VcFpUTThZS3JQbFg1S0FFcndqQVNzXG5XSlN2Y1pPTmYrZjBCUkZaTHJXU0RaVUN4VWRLVGtZM083eHBDd3FtdjRxUHVVVTkybnFtNEIzcURweHVcbnFjNE9pbzZIb2E5dFVhazN5eTRvdVM4QnZvMGI0QmVKOUsvQ0lTVlp4V1FZd2hBd3Y3Z0FZSG5hUVpvQVxuQ3dQWjRhSVM5NG5pd1ZNcDNWTFc5bUtTR2RsSENpVDRhWkVwN3UyWC8vZWFneGdiL3JTRnFkL2NPaUViXG5uSXA4N1dsd3Nzc2YxNkZESmVxSHNwbUNVV1Q4Z2VQdkVQTGxWVGpFR0o4VEpIY1B1TXpGVVc0NkZOODdcbnU1dWpzUTNoZThGQzNUYjJhYVNxbjF0UDlpMHRpOWZhaVVwc1ZRR0hVekt4RkovSkJBTUl4bVFVRUtSTVxuVXdYNnlPNkNqWVh2dVNlOTl5Y25vYm13WE9uR3pRUlFPSkhhaWZqOWxiUklCUFNDSHptNWZDcS9tN1hiXG5NQjd6ZzNhM1ZNTXlwa3IzYU9FclExVEthK3BYb3ZzNmYwaXYxWTZ5SHdKbTRpbFNEMTJHVW9BSTVaYnVcbnp3a2srWnJRVEVTMDhVYmNGZzVhdnp3ZkF4VVV3Wmx0SXAxOHA0N2EvRHE3akJkVHpPYkNocDFSWEFTd1xuU1FhN1xyXG49em84L1xyXG4tLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS1cclxuIiwgInNpZ25hdHVyZXMiOiBbeyJrZXlpZCI6ICJTSEEyNTY6amwzYndzd3U4MFBqam9rQ2doMG8ydzVjMlU0TGhRQUU1N2dqOWN6MWt6QSIsICJzaWciOiAiTUVRQ0lIeXkxRWZJdWR1YWVBd2ZVVUhoaGZXMyttNnVmZG1SSmRpOHdIMWEzQmV0QWlBRWRodzUyWkVvRzlZQVN4OHBNbElMMnVPaWdTTmUrZHNaQUVJaFg2VVpPdz09In1dfSwgIm1haW50YWluZXJzIjogW3siZW1haWwiOiAibmlzb24ubWFlbEBnbWFpbC5jb20iLCAibmFtZSI6ICJhcmNhbmlzIn0sIHsiZW1haWwiOiAiYmVzdGFuZGVyQGdtYWlsLmNvbSIsICJuYW1lIjogImJlc3RhbmRlciJ9LCB7ImVtYWlsIjogImNocmlzdG9waC5wb2plckBnbWFpbC5jb20iLCAibmFtZSI6ICJjcG9qZXIifSwgeyJlbWFpbCI6ICJucG1AZGFuLmN4IiwgIm5hbWUiOiAiZGFuaWVsMTUifSwgeyJlbWFpbCI6ICJzZWJtY2tAZ21haWwuY29tIiwgIm5hbWUiOiAic2VibWNrIn1dLCAiX25wbVVzZXIiOiB7Im5hbWUiOiAiYXJjYW5pcyIsICJlbWFpbCI6ICJuaXNvbi5tYWVsQGdtYWlsLmNvbSJ9LCAiZGlyZWN0b3JpZXMiOiB7fSwgIl9ucG1PcGVyYXRpb25hbEludGVybmFsIjogeyJob3N0IjogInMzOi8vbnBtLXJlZ2lzdHJ5LXBhY2thZ2VzIiwgInRtcCI6ICJ0bXAvbG9ja2ZpbGVfMS4xLjBfMTUzNjU4NjY3ODMwMl8wLjk1MTI4MjM2MTczNzA2MzgifSwgIl9oYXNTaHJpbmt3cmFwIjogZmFsc2V9fX0=",
+        "contents": "eyJ2ZXJzaW9ucyI6IHsiMS4xLjAiOiB7Im5hbWUiOiAiQHlhcm5wa2cvbG9ja2ZpbGUiLCAidmVyc2lvbiI6ICIxLjEuMCIsICJrZXl3b3JkcyI6IFsieWFybiIsICJ5YXJucGtnIiwgImxvY2tmaWxlIiwgImRlcGVuZGVuY3kiLCAibnBtIl0sICJsaWNlbnNlIjogIkJTRC0yLUNsYXVzZSIsICJfaWQiOiAiQHlhcm5wa2cvbG9ja2ZpbGVAMS4xLjAiLCAibWFpbnRhaW5lcnMiOiBbeyJuYW1lIjogImFyY2FuaXMiLCAiZW1haWwiOiAibmlzb24ubWFlbEBnbWFpbC5jb20ifSwgeyJuYW1lIjogImJlc3RhbmRlciIsICJlbWFpbCI6ICJiZXN0YW5kZXJAZ21haWwuY29tIn0sIHsibmFtZSI6ICJjcG9qZXIiLCAiZW1haWwiOiAiY2hyaXN0b3BoLnBvamVyQGdtYWlsLmNvbSJ9LCB7Im5hbWUiOiAiZGFuaWVsMTUiLCAiZW1haWwiOiAibnBtQGRhbi5jeCJ9LCB7Im5hbWUiOiAic2VibWNrIiwgImVtYWlsIjogInNlYm1ja0BnbWFpbC5jb20ifV0sICJkaXN0IjogeyJzaGFzdW0iOiAiZTc3YTk3ZmJkMzQ1Yjc2ZDgzMjQ1ZWRjZDE3ZDM5M2IxYjQxZmIzMSIsICJ0YXJiYWxsIjogImh0dHBzOi8vcmVnaXN0cnkubnBtanMub3JnL0B5YXJucGtnL2xvY2tmaWxlLy0vbG9ja2ZpbGUtMS4xLjAudGd6IiwgImZpbGVDb3VudCI6IDQsICJpbnRlZ3JpdHkiOiAic2hhNTEyLUdwU3d2eVhPY09PbFY3MHZibnpqajRmVzV4Vy9GZFVGNm5RRXQxRU55N200WkNjemkxKy9idVZVUEFxbUdmcXpuc09STkZ6VU1qY3RUSXA4YTl0dUNRPT0iLCAic2lnbmF0dXJlcyI6IFt7InNpZyI6ICJNRVFDSUh5eTFFZkl1ZHVhZUF3ZlVVSGhoZlczK202dWZkbVJKZGk4d0gxYTNCZXRBaUFFZGh3NTJaRW9HOVlBU3g4cE1sSUwydU9pZ1NOZStkc1pBRUloWDZVWk93PT0iLCAia2V5aWQiOiAiU0hBMjU2OmpsM2J3c3d1ODBQampva0NnaDBvMnc1YzJVNExoUUFFNTdnajljejFrekEifV0sICJ1bnBhY2tlZFNpemUiOiAyNzk3NzMsICJucG0tc2lnbmF0dXJlIjogIi0tLS0tQkVHSU4gUEdQIFNJR05BVFVSRS0tLS0tXHJcblZlcnNpb246IE9wZW5QR1AuanMgdjMuMC40XHJcbkNvbW1lbnQ6IGh0dHBzOi8vb3BlbnBncGpzLm9yZ1xyXG5cclxud3NGY0JBRUJDQUFRQlFKYmxuTzNDUkE5VFZzU0FuWldhZ0FBRFN3UUFLTis1dUJvbE9KenhpeWZJZkNiXG5PazdXMkxmUFZwMVJ1Q1J0cFZnWVMxR3RHRkUyZC9BN29UNmZUdHBWemZyRXRMalBtN2V3MFBBcEVWcjdcblZjTjdBdE5ieHM5NHVOOW5va0ZaOXp5aHFIVXJSRFl5Vm9jQXhEbU1ia1dHOCtVK3k2R0RzODVmTEptUFxuUDBlMTFMbXV3bHEvUnkyQnY4dDl6K2g3NE92d0Zndmx5RDNNU09VcFpUTThZS3JQbFg1S0FFcndqQVNzXG5XSlN2Y1pPTmYrZjBCUkZaTHJXU0RaVUN4VWRLVGtZM083eHBDd3FtdjRxUHVVVTkybnFtNEIzcURweHVcbnFjNE9pbzZIb2E5dFVhazN5eTRvdVM4QnZvMGI0QmVKOUsvQ0lTVlp4V1FZd2hBd3Y3Z0FZSG5hUVpvQVxuQ3dQWjRhSVM5NG5pd1ZNcDNWTFc5bUtTR2RsSENpVDRhWkVwN3UyWC8vZWFneGdiL3JTRnFkL2NPaUViXG5uSXA4N1dsd3Nzc2YxNkZESmVxSHNwbUNVV1Q4Z2VQdkVQTGxWVGpFR0o4VEpIY1B1TXpGVVc0NkZOODdcbnU1dWpzUTNoZThGQzNUYjJhYVNxbjF0UDlpMHRpOWZhaVVwc1ZRR0hVekt4RkovSkJBTUl4bVFVRUtSTVxuVXdYNnlPNkNqWVh2dVNlOTl5Y25vYm13WE9uR3pRUlFPSkhhaWZqOWxiUklCUFNDSHptNWZDcS9tN1hiXG5NQjd6ZzNhM1ZNTXlwa3IzYU9FclExVEthK3BYb3ZzNmYwaXYxWTZ5SHdKbTRpbFNEMTJHVW9BSTVaYnVcbnp3a2srWnJRVEVTMDhVYmNGZzVhdnp3ZkF4VVV3Wmx0SXAxOHA0N2EvRHE3akJkVHpPYkNocDFSWEFTd1xuU1FhN1xyXG49em84L1xyXG4tLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS1cclxuIn0sICJtYWluIjogImluZGV4LmpzIiwgIl9ucG1Vc2VyIjogeyJuYW1lIjogImFyY2FuaXMiLCAiZW1haWwiOiAibmlzb24ubWFlbEBnbWFpbC5jb20ifSwgInJlcG9zaXRvcnkiOiB7InVybCI6ICJodHRwczovL2dpdGh1Yi5jb20veWFybnBrZy95YXJuL2Jsb2IvbWFzdGVyL3BhY2thZ2VzL2xvY2tmaWxlIiwgInR5cGUiOiAiZ2l0In0sICJkZXNjcmlwdGlvbiI6ICJUaGUgcGFyc2VyL3N0cmluZ2lmaWVyIGZvciBZYXJuIGxvY2tmaWxlcy4iLCAiZGlyZWN0b3JpZXMiOiB7fSwgIl9oYXNTaHJpbmt3cmFwIjogZmFsc2UsICJfbnBtT3BlcmF0aW9uYWxJbnRlcm5hbCI6IHsidG1wIjogInRtcC9sb2NrZmlsZV8xLjEuMF8xNTM2NTg2Njc4MzAyXzAuOTUxMjgyMzYxNzM3MDYzOCIsICJob3N0IjogInMzOi8vbnBtLXJlZ2lzdHJ5LXBhY2thZ2VzIn19fX0=",
         "base64": true,
-        "dest-filename": "0ba0777e3a1c65c61e0be0c1b9d7196d2eeee912b0b9252923041a78951a",
-        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha256/fa/ca"
+        "dest-filename": "098a4a77c837327df0e3d41f8bddf62b24a469b71befc3c4017cd11a4e7c",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha256/ce/8b"
     },
     {
         "type": "inline",
@@ -7329,101 +7329,101 @@
     },
     {
         "type": "file",
-        "url": "https://registry.npmjs.org/sqlite-better-trigram-darwin-arm64/-/sqlite-better-trigram-darwin-arm64-0.0.3.tgz",
-        "sha512": "75d2f42b7bf5d1bbea8ee5203d245f3f5a8564084eff8debb9a5ad592e70bb80e08a495d1b3d6d058fa742d75cf97b746abac4314ca212f3b3eccb8a1d0340d1",
-        "dest-filename": "f42b7bf5d1bbea8ee5203d245f3f5a8564084eff8debb9a5ad592e70bb80e08a495d1b3d6d058fa742d75cf97b746abac4314ca212f3b3eccb8a1d0340d1",
-        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/75/d2"
+        "url": "https://registry.npmjs.org/sqlite-better-trigram-darwin-arm64/-/sqlite-better-trigram-darwin-arm64-0.0.5.tgz",
+        "sha512": "01549f1472c302eb6d90ab655c23076e1b55e83bfc338f1ee2e7137e330ea467a7253116997c771a88ff6421dedee2c45b9eea69e972d7900097fc453ac1922c",
+        "dest-filename": "9f1472c302eb6d90ab655c23076e1b55e83bfc338f1ee2e7137e330ea467a7253116997c771a88ff6421dedee2c45b9eea69e972d7900097fc453ac1922c",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/01/54"
     },
     {
         "type": "file",
-        "url": "https://registry.npmjs.org/sqlite-better-trigram-darwin-x64/-/sqlite-better-trigram-darwin-x64-0.0.3.tgz",
-        "sha512": "210cc5cd7b7489bd4c67f5109bbd57ed12aff06d2fc1ea4da9c9a77166cad51ecb016c294bfa9a275372acc3a12f60277de437df1d489101341a56a6c45542f4",
-        "dest-filename": "c5cd7b7489bd4c67f5109bbd57ed12aff06d2fc1ea4da9c9a77166cad51ecb016c294bfa9a275372acc3a12f60277de437df1d489101341a56a6c45542f4",
-        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/21/0c"
+        "url": "https://registry.npmjs.org/sqlite-better-trigram-darwin-x64/-/sqlite-better-trigram-darwin-x64-0.0.5.tgz",
+        "sha512": "4b1ad0c48f2be36f9637c0d9c4ab9342d48f998ed32f0b64e55a0a6d137a1ee3646f8af1f199a629e566540f2efa12e43b86f38761adc9d3ab953748820e60e5",
+        "dest-filename": "d0c48f2be36f9637c0d9c4ab9342d48f998ed32f0b64e55a0a6d137a1ee3646f8af1f199a629e566540f2efa12e43b86f38761adc9d3ab953748820e60e5",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/4b/1a"
     },
     {
         "type": "file",
-        "url": "https://registry.npmjs.org/sqlite-better-trigram-linux-arm64/-/sqlite-better-trigram-linux-arm64-0.0.3.tgz",
-        "sha512": "353ca4111092c40bad02d27d213c0e4018ad0bdcc383ad6d4c3a0b38674ca033b688040d2ee180a4d4bca85be708d975c19cbcca8c08db8ac760c0962c320420",
-        "dest-filename": "a4111092c40bad02d27d213c0e4018ad0bdcc383ad6d4c3a0b38674ca033b688040d2ee180a4d4bca85be708d975c19cbcca8c08db8ac760c0962c320420",
-        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/35/3c"
+        "url": "https://registry.npmjs.org/sqlite-better-trigram-linux-arm64/-/sqlite-better-trigram-linux-arm64-0.0.5.tgz",
+        "sha512": "8eb9b98c351fa3314453712b376368b101d38b9dd7a2e5c1aeb873a228006166217e4fa878c6cdecc59dcefe72e5e64d1f9b9449173cfca8fa5cef2bc75e3b9b",
+        "dest-filename": "b98c351fa3314453712b376368b101d38b9dd7a2e5c1aeb873a228006166217e4fa878c6cdecc59dcefe72e5e64d1f9b9449173cfca8fa5cef2bc75e3b9b",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/8e/b9"
     },
     {
         "type": "file",
-        "url": "https://registry.npmjs.org/sqlite-better-trigram-linux-x64/-/sqlite-better-trigram-linux-x64-0.0.3.tgz",
-        "sha512": "5a8076a8c7855fa5c6396753602ac5e2298404be7f6bf50aa99a735af3e1b55f7662ce3bcf8008bb0896bde90ef3fe4544b602c93f6b24b5cb498d9e5303aa2e",
-        "dest-filename": "76a8c7855fa5c6396753602ac5e2298404be7f6bf50aa99a735af3e1b55f7662ce3bcf8008bb0896bde90ef3fe4544b602c93f6b24b5cb498d9e5303aa2e",
-        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/5a/80"
+        "url": "https://registry.npmjs.org/sqlite-better-trigram-linux-x64/-/sqlite-better-trigram-linux-x64-0.0.5.tgz",
+        "sha512": "02a884385edf2bc30f7092b15a492b17d0d64ace4c6bf02525fb960eb7712b394b3da578396b9c2f6ce6fd285d10c199f94cf91204d2846c67bcb451326658b1",
+        "dest-filename": "84385edf2bc30f7092b15a492b17d0d64ace4c6bf02525fb960eb7712b394b3da578396b9c2f6ce6fd285d10c199f94cf91204d2846c67bcb451326658b1",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/02/a8"
     },
     {
         "type": "file",
-        "url": "https://registry.npmjs.org/sqlite-better-trigram-windows-arm64/-/sqlite-better-trigram-windows-arm64-0.0.3.tgz",
-        "sha512": "857213f8f924250def274f84f19876fc1a0e090d9d463e8b99c8633fb4f969fa5b29723f95c23bec2824ded3f07bcb3f630722e8ec9e27071a16e06d7f508b87",
-        "dest-filename": "13f8f924250def274f84f19876fc1a0e090d9d463e8b99c8633fb4f969fa5b29723f95c23bec2824ded3f07bcb3f630722e8ec9e27071a16e06d7f508b87",
-        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/85/72"
+        "url": "https://registry.npmjs.org/sqlite-better-trigram-windows-arm64/-/sqlite-better-trigram-windows-arm64-0.0.5.tgz",
+        "sha512": "1c463719b86d20d2b2336ced70127b1aaa601cd0c0d1a05414d9cab2f024a2b174f3ed2fd2c46cde866ca0306a0d0634b66f748946552e84eabed377b0b85a1b",
+        "dest-filename": "3719b86d20d2b2336ced70127b1aaa601cd0c0d1a05414d9cab2f024a2b174f3ed2fd2c46cde866ca0306a0d0634b66f748946552e84eabed377b0b85a1b",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/1c/46"
     },
     {
         "type": "file",
-        "url": "https://registry.npmjs.org/sqlite-better-trigram-windows-x64/-/sqlite-better-trigram-windows-x64-0.0.3.tgz",
-        "sha512": "7658bb31a0e577d934d95c7be0cae8bf1c72f9243bd86c1a39bbc839c6c8ec04e2294be146f8c76609ae22f8311760ccf1a45e8c51e03c80b8fc65097236ae12",
-        "dest-filename": "bb31a0e577d934d95c7be0cae8bf1c72f9243bd86c1a39bbc839c6c8ec04e2294be146f8c76609ae22f8311760ccf1a45e8c51e03c80b8fc65097236ae12",
-        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/76/58"
+        "url": "https://registry.npmjs.org/sqlite-better-trigram-windows-x64/-/sqlite-better-trigram-windows-x64-0.0.5.tgz",
+        "sha512": "25e2cf946739c8beca2ffbaa0207116fdc304b9d7137569eccfd7c93676fbb1a575a67c60dcf1ef3f6e9298555cd46e7305eb731da526bd3c1721d8d853e823c",
+        "dest-filename": "cf946739c8beca2ffbaa0207116fdc304b9d7137569eccfd7c93676fbb1a575a67c60dcf1ef3f6e9298555cd46e7305eb731da526bd3c1721d8d853e823c",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/25/e2"
     },
     {
         "type": "file",
-        "url": "https://registry.npmjs.org/sqlite-better-trigram/-/sqlite-better-trigram-0.0.3.tgz",
-        "sha512": "afe48378d93e2b5568b6b531ff0d1332ee05763a030cf0aac61b5f539d1d49e4f37c216d90c06ad7f13782fb1a8878b7518b4e6bab2203c08afe06258fbe5e08",
-        "dest-filename": "8378d93e2b5568b6b531ff0d1332ee05763a030cf0aac61b5f539d1d49e4f37c216d90c06ad7f13782fb1a8878b7518b4e6bab2203c08afe06258fbe5e08",
-        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/af/e4"
+        "url": "https://registry.npmjs.org/sqlite-better-trigram/-/sqlite-better-trigram-0.0.5.tgz",
+        "sha512": "2c302e333536bbdae12723664b16722622f79566fc16352a5ff259dddc26a35e82974ce693316f192f78c9f8cb87011c7b5ca0d5413ce75333e54a6558d861a6",
+        "dest-filename": "2e333536bbdae12723664b16722622f79566fc16352a5ff259dddc26a35e82974ce693316f192f78c9f8cb87011c7b5ca0d5413ce75333e54a6558d861a6",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/2c/30"
     },
     {
         "type": "file",
-        "url": "https://registry.npmjs.org/sqlite3-fts5-html-darwin-arm64/-/sqlite3-fts5-html-darwin-arm64-0.0.4.tgz",
-        "sha512": "ce483e2f13adabb38dcfcd82e3ed66c6c99ab0e22df6d6d445e10c966bb6f69268b1f803b0c7eda7d935272e3a14493754314e0e583db835fb7f43b4aeca5aca",
-        "dest-filename": "3e2f13adabb38dcfcd82e3ed66c6c99ab0e22df6d6d445e10c966bb6f69268b1f803b0c7eda7d935272e3a14493754314e0e583db835fb7f43b4aeca5aca",
-        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/ce/48"
+        "url": "https://registry.npmjs.org/sqlite3-fts5-html-darwin-arm64/-/sqlite3-fts5-html-darwin-arm64-0.0.6.tgz",
+        "sha512": "a8c49426cf69cbc5f954af7a62e891ace4424b120da0868afe560e42dedd1b03869df3fcaa976f8f916840c90d9dbe6cda4776c6a928d68e62a3788916adac64",
+        "dest-filename": "9426cf69cbc5f954af7a62e891ace4424b120da0868afe560e42dedd1b03869df3fcaa976f8f916840c90d9dbe6cda4776c6a928d68e62a3788916adac64",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/a8/c4"
     },
     {
         "type": "file",
-        "url": "https://registry.npmjs.org/sqlite3-fts5-html-darwin-x64/-/sqlite3-fts5-html-darwin-x64-0.0.4.tgz",
-        "sha512": "2ed0514d57c1dde364ba92891286d954ec9fe136e65b0e1781d046be2e301471dcbfdea0aa15651dd50695abee979eb500ea5a6fe4fb0ce81a3e0a61d72e4ce4",
-        "dest-filename": "514d57c1dde364ba92891286d954ec9fe136e65b0e1781d046be2e301471dcbfdea0aa15651dd50695abee979eb500ea5a6fe4fb0ce81a3e0a61d72e4ce4",
-        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/2e/d0"
+        "url": "https://registry.npmjs.org/sqlite3-fts5-html-darwin-x64/-/sqlite3-fts5-html-darwin-x64-0.0.6.tgz",
+        "sha512": "4fba2ea351d97dfadfb952b2d0690f47a749bc67a269a5a5a820eb41d36fa4bec5e8353269920677d1494b0c418d359a393396ee0960fac79d0469eda24a59ab",
+        "dest-filename": "2ea351d97dfadfb952b2d0690f47a749bc67a269a5a5a820eb41d36fa4bec5e8353269920677d1494b0c418d359a393396ee0960fac79d0469eda24a59ab",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/4f/ba"
     },
     {
         "type": "file",
-        "url": "https://registry.npmjs.org/sqlite3-fts5-html-linux-arm64/-/sqlite3-fts5-html-linux-arm64-0.0.4.tgz",
-        "sha512": "fb18113e90fb7dd5cd24f29a8201c4e41912174d1a23cae51c767ea57651d86985c91afefa3b77e0c0396af3b81baa08e26ad9f36c1457eb1652a77c144ad107",
-        "dest-filename": "113e90fb7dd5cd24f29a8201c4e41912174d1a23cae51c767ea57651d86985c91afefa3b77e0c0396af3b81baa08e26ad9f36c1457eb1652a77c144ad107",
-        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/fb/18"
+        "url": "https://registry.npmjs.org/sqlite3-fts5-html-linux-arm64/-/sqlite3-fts5-html-linux-arm64-0.0.6.tgz",
+        "sha512": "5e5e29a24514e0eb32ae81d802808587b474dece95d80a5c41922698db15a56940be2561940437371481857b49d87372c952639e4259bd09d71b4cd104b6435f",
+        "dest-filename": "29a24514e0eb32ae81d802808587b474dece95d80a5c41922698db15a56940be2561940437371481857b49d87372c952639e4259bd09d71b4cd104b6435f",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/5e/5e"
     },
     {
         "type": "file",
-        "url": "https://registry.npmjs.org/sqlite3-fts5-html-linux-x64/-/sqlite3-fts5-html-linux-x64-0.0.4.tgz",
-        "sha512": "e1a87b2220d41fd92908fa2a4f8956e8571670d895174c2da72c16f365157e46b06e680b14f1aa49016a1f20a19a9d5bd9db2b90ee57fdb86af44d81474ff199",
-        "dest-filename": "7b2220d41fd92908fa2a4f8956e8571670d895174c2da72c16f365157e46b06e680b14f1aa49016a1f20a19a9d5bd9db2b90ee57fdb86af44d81474ff199",
-        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/e1/a8"
+        "url": "https://registry.npmjs.org/sqlite3-fts5-html-linux-x64/-/sqlite3-fts5-html-linux-x64-0.0.6.tgz",
+        "sha512": "bfe87b9cfe0196215ca957db584eda08df4c52acaaccf34ece5ffc79abad37975908712f404ae156023365f0850e725fd17a7bdde5c92eee669f225815fdf1dc",
+        "dest-filename": "7b9cfe0196215ca957db584eda08df4c52acaaccf34ece5ffc79abad37975908712f404ae156023365f0850e725fd17a7bdde5c92eee669f225815fdf1dc",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/bf/e8"
     },
     {
         "type": "file",
-        "url": "https://registry.npmjs.org/sqlite3-fts5-html-windows-arm64/-/sqlite3-fts5-html-windows-arm64-0.0.4.tgz",
-        "sha512": "ad028bad7f744ca20c803ef34ab3a4fd4eaad0a101893681da75c338d70ae1dfc26299c6f60fcdfe2e80772f7c8f9faffcf82aca672182d470be0047399cc27f",
-        "dest-filename": "8bad7f744ca20c803ef34ab3a4fd4eaad0a101893681da75c338d70ae1dfc26299c6f60fcdfe2e80772f7c8f9faffcf82aca672182d470be0047399cc27f",
-        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/ad/02"
+        "url": "https://registry.npmjs.org/sqlite3-fts5-html-windows-arm64/-/sqlite3-fts5-html-windows-arm64-0.0.6.tgz",
+        "sha512": "e3ad1baacfaf038234193caf8853c3e772388af3e3ae124daf7b43856126776a7e68d0dfc6fcf5cf4040c384aed6c5718427bfba9d683030b10b5cfb744c9f98",
+        "dest-filename": "1baacfaf038234193caf8853c3e772388af3e3ae124daf7b43856126776a7e68d0dfc6fcf5cf4040c384aed6c5718427bfba9d683030b10b5cfb744c9f98",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/e3/ad"
     },
     {
         "type": "file",
-        "url": "https://registry.npmjs.org/sqlite3-fts5-html-windows-x64/-/sqlite3-fts5-html-windows-x64-0.0.4.tgz",
-        "sha512": "1712e5a01c56b6c20650cc5bbce2cd63df855c9604724bb5c55a896ab2df18a7175fbcef4b7c9730fd1d61e95dda543f7af3622e0bcb30d2e1505c211259f5bc",
-        "dest-filename": "e5a01c56b6c20650cc5bbce2cd63df855c9604724bb5c55a896ab2df18a7175fbcef4b7c9730fd1d61e95dda543f7af3622e0bcb30d2e1505c211259f5bc",
-        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/17/12"
+        "url": "https://registry.npmjs.org/sqlite3-fts5-html-windows-x64/-/sqlite3-fts5-html-windows-x64-0.0.6.tgz",
+        "sha512": "acc8cedf235caaf7d5788e5c0d670b62eb78decf67e2f1d5bc52f5dbd0092036ab173febf7d5570b7e2421d3eea56e86225876bff737263dd3b6e5e53b2ba5ad",
+        "dest-filename": "cedf235caaf7d5788e5c0d670b62eb78decf67e2f1d5bc52f5dbd0092036ab173febf7d5570b7e2421d3eea56e86225876bff737263dd3b6e5e53b2ba5ad",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/ac/c8"
     },
     {
         "type": "file",
-        "url": "https://registry.npmjs.org/sqlite3-fts5-html/-/sqlite3-fts5-html-0.0.4.tgz",
-        "sha512": "d9dec6dd002036d9dd4d84450d7573cec8e50e48d72e8f58078c715452311c8a2d2a7553366774fe249030c8ce3056395c4a56f327a61640f4132b8dd3016e49",
-        "dest-filename": "c6dd002036d9dd4d84450d7573cec8e50e48d72e8f58078c715452311c8a2d2a7553366774fe249030c8ce3056395c4a56f327a61640f4132b8dd3016e49",
-        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/d9/de"
+        "url": "https://registry.npmjs.org/sqlite3-fts5-html/-/sqlite3-fts5-html-0.0.6.tgz",
+        "sha512": "fb5e67b4aecbebc1bfcae33ebf2280171ccb33f4d1c23368580905af4abe8d771dc1f4d43ab536a5a8a79683885a7a8dfe6793d0dd6474e96d687832192f4c68",
+        "dest-filename": "67b4aecbebc1bfcae33ebf2280171ccb33f4d1c23368580905af4abe8d771dc1f4d43ab536a5a8a79683885a7a8dfe6793d0dd6474e96d687832192f4c68",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/fb/5e"
     },
     {
         "type": "file",
@@ -7952,15 +7952,15 @@
     },
     {
         "type": "inline",
-        "contents": "00af4cb295f897c9e245443a47ae33b3a64089ca\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/jsonfile/-/jsonfile-6.2.0.tgz\", \"integrity\": \"sha512-FGuPw30AdOIUTRMC2OMRtQV+jkVj2cfPqSeWXv1NEAJ1qZ5zb1X6z1mFhbfOB/iy3ssJCD+3KuZ8r8C3uVFlAg==\", \"time\": 0, \"size\": 3452, \"metadata\": {\"url\": \"https://registry.npmjs.org/jsonfile/-/jsonfile-6.2.0.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
-        "dest-filename": "dc0e50fd65dcc546441ad6d8b83ba84ba2801a6689a7c389906561634ac1",
-        "dest": "flatpak-node/npm-cache/_cacache/index-v5/b5/17"
+        "contents": "008bc3915a838dd29395653ab1e6a6518b95fa22\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite3-fts5-html-linux-x64/-/sqlite3-fts5-html-linux-x64-0.0.6.tgz\", \"integrity\": \"sha512-v+h7nP4BliFcqVfbWE7aCN9MUqyqzPNOzl/8eautN5dZCHEvQErhVgIzZfCFDnJf0Xp73eXJLu5mnyJYFf3x3A==\", \"time\": 0, \"size\": 178300, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite3-fts5-html-linux-x64/-/sqlite3-fts5-html-linux-x64-0.0.6.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
+        "dest-filename": "2ac3e9d60f4d8a1e3d96b6f7321c7a53d293e0033c8ec465d2ba60556b4e",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/0d/49"
     },
     {
         "type": "inline",
-        "contents": "00b0d15d9798e7152f367f7c509cba29467124de\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite-better-trigram-linux-x64/-/sqlite-better-trigram-linux-x64-0.0.3.tgz\", \"integrity\": \"sha512-WoB2qMeFX6XGOWdTYCrF4imEBL5/a/UKqZpzWvPhtV92Ys47z4AIuwiWvekO8/5FRLYCyT9rJLXLSY2eUwOqLg==\", \"time\": 0, \"size\": 12626, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite-better-trigram-linux-x64/-/sqlite-better-trigram-linux-x64-0.0.3.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
-        "dest-filename": "abedf9717c52cec50e538f73f2d82516d0a391c6475df06d4e7e03b03e88",
-        "dest": "flatpak-node/npm-cache/_cacache/index-v5/fa/3c"
+        "contents": "00af4cb295f897c9e245443a47ae33b3a64089ca\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/jsonfile/-/jsonfile-6.2.0.tgz\", \"integrity\": \"sha512-FGuPw30AdOIUTRMC2OMRtQV+jkVj2cfPqSeWXv1NEAJ1qZ5zb1X6z1mFhbfOB/iy3ssJCD+3KuZ8r8C3uVFlAg==\", \"time\": 0, \"size\": 3452, \"metadata\": {\"url\": \"https://registry.npmjs.org/jsonfile/-/jsonfile-6.2.0.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
+        "dest-filename": "dc0e50fd65dcc546441ad6d8b83ba84ba2801a6689a7c389906561634ac1",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/b5/17"
     },
     {
         "type": "inline",
@@ -8084,21 +8084,9 @@
     },
     {
         "type": "inline",
-        "contents": "0a0705cd19ec73bf3bb9506023b99739d10114bf\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite3-fts5-html/-/sqlite3-fts5-html-0.0.4.tgz\", \"integrity\": \"sha512-2d7G3QAgNtndTYRFDXVzzsjlDkjXLo9YB4xxVFIxHIotKnVTNmd0/iSQMMjOMFY5XEpW8yemFkD0EyuN0wFuSQ==\", \"time\": 0, \"size\": 1396, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite3-fts5-html/-/sqlite3-fts5-html-0.0.4.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
-        "dest-filename": "bd8393bb4a5ac51dc61dd91e7c2121e84da287b0a618fb4bff21689807a6",
-        "dest": "flatpak-node/npm-cache/_cacache/index-v5/2a/39"
-    },
-    {
-        "type": "inline",
         "contents": "0a17f28876a5dc68318ed9f436c01937300dbcc3\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/peek-readable/-/peek-readable-5.4.2.tgz\", \"integrity\": \"sha512-peBp3qZyuS6cNIJ2akRNG1uo1WJ1d0wTxg/fxMdZ0BqCVhx242bSFHM9eNqflfJVS9SsgkzgT/1UgnsurBOTMg==\", \"time\": 0, \"size\": 6146, \"metadata\": {\"url\": \"https://registry.npmjs.org/peek-readable/-/peek-readable-5.4.2.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "647d21fbca289c9ec91570ba2f83d249a93208f8b715b9921c4530199f1c",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/4f/62"
-    },
-    {
-        "type": "inline",
-        "contents": "0ab3ac7a657d95c1815a9752f0e8ffe38e11ac9b\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite3-fts5-html-darwin-x64/-/sqlite3-fts5-html-darwin-x64-0.0.4.tgz\", \"integrity\": \"sha512-LtBRTVfB3eNkupKJEobZVOyf4TbmWw4XgdBGvi4wFHHcv96gqhVlHdUGlavul561AOpab+T7DOgaPgph1y5M5A==\", \"time\": 0, \"size\": 132703, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite3-fts5-html-darwin-x64/-/sqlite3-fts5-html-darwin-x64-0.0.4.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
-        "dest-filename": "8f7e1526ef9f2c015c9abcd5d771ec8eede990b8b0f023e94baceb5967e5",
-        "dest": "flatpak-node/npm-cache/_cacache/index-v5/32/29"
     },
     {
         "type": "inline",
@@ -8168,6 +8156,12 @@
     },
     {
         "type": "inline",
+        "contents": "10f7ca310700b84681ff5ada17533e346135870c\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite-better-trigram-linux-arm64/-/sqlite-better-trigram-linux-arm64-0.0.5.tgz\", \"integrity\": \"sha512-jrm5jDUfozFEU3ErN2NosQHTi53XouXBrrhzoigAYWYhfk+oeMbN7MWdzv5y5eZNH5uUSRc8/Kj6XO8rx147mw==\", \"time\": 0, \"size\": 11139, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite-better-trigram-linux-arm64/-/sqlite-better-trigram-linux-arm64-0.0.5.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
+        "dest-filename": "019b1bcabf3692eda1634816dd5bde7234d38a705bbd73fc0dcdc1e81776",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/41/fb"
+    },
+    {
+        "type": "inline",
         "contents": "11a081e97bad306aac6021978f02d7caec09a8b3\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/events/-/events-3.3.0.tgz\", \"integrity\": \"sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==\", \"time\": 0, \"size\": 16574, \"metadata\": {\"url\": \"https://registry.npmjs.org/events/-/events-3.3.0.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "69ef82dceb3095bd8cae43cfb9a1267bf1e5a1aba1be4bc9c37a046fccfe",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/ab/79"
@@ -8207,12 +8201,6 @@
         "contents": "16c447d9067175bead72b1203150f5a467a91c78\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/truncate-utf8-bytes/-/truncate-utf8-bytes-1.0.2.tgz\", \"integrity\": \"sha512-95Pu1QXQvruGEhv62XCMO3Mm90GscOCClvrIUwCM0PYOXK3kaF3l3sIHxx71ThJfcbM2O5Au6SO3AWCSEfW4mQ==\", \"time\": 0, \"size\": 2234, \"metadata\": {\"url\": \"https://registry.npmjs.org/truncate-utf8-bytes/-/truncate-utf8-bytes-1.0.2.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "d8752773e2be8ff244bc63d0f84ad951e7bb0cfe9ef06e130b57fdeb53ba",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/05/d9"
-    },
-    {
-        "type": "inline",
-        "contents": "17c9fcb3d06f425206ce1b3663f6a97fcd8d4d19\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite-better-trigram-darwin-arm64/-/sqlite-better-trigram-darwin-arm64-0.0.3.tgz\", \"integrity\": \"sha512-ddL0K3v10bvqjuUgPSRfP1qFZAhO/43ruaWtWS5wu4DgikldGz1tBY+nQtdc+Xt0arrEMUyiEvOz7MuKHQNA0Q==\", \"time\": 0, \"size\": 11362, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite-better-trigram-darwin-arm64/-/sqlite-better-trigram-darwin-arm64-0.0.3.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
-        "dest-filename": "5da290e368b6ea3811a51aac567389e6231f8a60c2762e4558443d3037d1",
-        "dest": "flatpak-node/npm-cache/_cacache/index-v5/1d/d7"
     },
     {
         "type": "inline",
@@ -8480,12 +8468,6 @@
     },
     {
         "type": "inline",
-        "contents": "2eb846c5aa26a6339806c2c82732d89467a812fb\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite-better-trigram-windows-x64/-/sqlite-better-trigram-windows-x64-0.0.3.tgz\", \"integrity\": \"sha512-dli7MaDld9k02Vx74Mrovxxy+SQ72GwaObvIOcbI7ATiKUvhRvjHZgmuIvgxF2DM8aRejFHgPIC4/GUJcjauEg==\", \"time\": 0, \"size\": 88483, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite-better-trigram-windows-x64/-/sqlite-better-trigram-windows-x64-0.0.3.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
-        "dest-filename": "bcc68ea82bec2512446b136abf359232dda6091035a54564031d9a88d08a",
-        "dest": "flatpak-node/npm-cache/_cacache/index-v5/5c/05"
-    },
-    {
-        "type": "inline",
         "contents": "2f58df27afebba8fa803f5767582bf8eecd98a09\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/vite-node/-/vite-node-3.2.4.tgz\", \"integrity\": \"sha512-EbKSKh+bh1E1IFxeO0pg1n4dvoOTt0UDiXMd/qn++r98+jPO1xtJilvXldeuQ8giIB5IkpjCgMleHMNEsGH6pg==\", \"time\": 0, \"size\": 67009, \"metadata\": {\"url\": \"https://registry.npmjs.org/vite-node/-/vite-node-3.2.4.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "3487b16022ae8a3a2b945a2f8567ecb5aeb0e2c5fef286e38d68203b25b2",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/2c/ee"
@@ -8528,12 +8510,6 @@
     },
     {
         "type": "inline",
-        "contents": "330045fb88e717bf8a42e9da9a5ebf8a7cd806cd\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite-better-trigram/-/sqlite-better-trigram-0.0.3.tgz\", \"integrity\": \"sha512-r+SDeNk+K1VotrUx/w0TMu4FdjoDDPCqxhtfU50dSeTzfCFtkMBq1/E3gvsaiHi3UYtOa6siA8CK/gYlj75eCA==\", \"time\": 0, \"size\": 1385, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite-better-trigram/-/sqlite-better-trigram-0.0.3.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
-        "dest-filename": "1d6dc719e21da8dd3035fe19414ab646a15ca6d8559b710419cc99533954",
-        "dest": "flatpak-node/npm-cache/_cacache/index-v5/de/6a"
-    },
-    {
-        "type": "inline",
         "contents": "3312183314e6e4baed751558184c5f088b873636\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/clone-response/-/clone-response-1.0.3.tgz\", \"integrity\": \"sha512-ROoL94jJH2dUVML2Y/5PEDNaSHgeOdSDicUyS7izcF63G6sTc/FTjLub4b8Il9S8S0beOfYt0TaA5qvFK+w0wA==\", \"time\": 0, \"size\": 2231, \"metadata\": {\"url\": \"https://registry.npmjs.org/clone-response/-/clone-response-1.0.3.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "030cc762b50dee13f56a04bc253a00ae3503dd2b7656ca3d33da61908a95",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/3f/4a"
@@ -8573,6 +8549,12 @@
         "contents": "346bf6cfd308cf4cb2a826ad5d76d695646f02c0\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/@vitest/utils/-/utils-3.2.4.tgz\", \"integrity\": \"sha512-fB2V0JFrQSMsCo9HiSq3Ezpdv4iYaXRG1Sx8edX3MwxfyNn83mKiGzOcH+Fkxt4MHxr3y42fQi1oeAInqgX2QA==\", \"time\": 0, \"size\": 44963, \"metadata\": {\"url\": \"https://registry.npmjs.org/@vitest/utils/-/utils-3.2.4.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "179ee594ff58340b85b46efee0d7a5ab166dbfd6b2b487b4a7651f5693b1",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/27/2f"
+    },
+    {
+        "type": "inline",
+        "contents": "35cb3260a31fa324009fa6ec832eacfd89366e17\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite3-fts5-html/-/sqlite3-fts5-html-0.0.6.tgz\", \"integrity\": \"sha512-+15ntK7L68G/yuM+vyKAFxzLM/TRwjNoWAkFr0q+jXcdwfTUOrU2painloOIWnqN/meT0N1kdOltaHgyGS9MaA==\", \"time\": 0, \"size\": 1481, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite3-fts5-html/-/sqlite3-fts5-html-0.0.6.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
+        "dest-filename": "aed66e985c60a066c67da2dc8e1d3b1eed9f0b261117d694d96e70d162f9",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/0e/9f"
     },
     {
         "type": "inline",
@@ -8660,12 +8642,6 @@
     },
     {
         "type": "inline",
-        "contents": "3b97d1da760d3e203232be1de23bf08ddf8d63c1\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite3-fts5-html-darwin-arm64/-/sqlite3-fts5-html-darwin-arm64-0.0.4.tgz\", \"integrity\": \"sha512-zkg+LxOtq7ONz82C4+1mxsmasOIt9tbUReEMlmu29pJosfgDsMftp9k1Jy46FEk3VDFODlg9uDX7f0O0rspayg==\", \"time\": 0, \"size\": 132511, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite3-fts5-html-darwin-arm64/-/sqlite3-fts5-html-darwin-arm64-0.0.4.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
-        "dest-filename": "83326d766d4ca85042b5b7010f2d1acfdf1f6b31546d8630966280f658a1",
-        "dest": "flatpak-node/npm-cache/_cacache/index-v5/2c/ed"
-    },
-    {
-        "type": "inline",
         "contents": "3ba94d414b4f205dc2f2b607d8ad921e91c20bde\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/semver/-/semver-5.7.2.tgz\", \"integrity\": \"sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==\", \"time\": 0, \"size\": 17872, \"metadata\": {\"url\": \"https://registry.npmjs.org/semver/-/semver-5.7.2.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "326bbe3e88c981f3f2700e89f091f4f912cf110ae44023316ea62051848d",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/b4/7c"
@@ -8750,6 +8726,12 @@
     },
     {
         "type": "inline",
+        "contents": "3ed0d5dbf4e24ee72c8d981c5bfbf7f248c9bb8d\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite3-fts5-html-windows-arm64/-/sqlite3-fts5-html-windows-arm64-0.0.6.tgz\", \"integrity\": \"sha512-460bqs+vA4I0GTyviFPD53I4ivPjrhJNr3tDhWEmd2p+aNDfxvz1z0BAw4Su1sVxhCe/up1oMDCxC1z7dEyfmA==\", \"time\": 0, \"size\": 145839, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite3-fts5-html-windows-arm64/-/sqlite3-fts5-html-windows-arm64-0.0.6.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
+        "dest-filename": "630503ea508235f76fcb8949e40945c6a68d8566c082597840938240e328",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/ff/16"
+    },
+    {
+        "type": "inline",
         "contents": "3f95ff014498a0f4327742dfb0a26628ecda6ef7\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/magic-string/-/magic-string-0.30.19.tgz\", \"integrity\": \"sha512-2N21sPY9Ws53PZvsEpVtNuSW+ScYbQdp4b9qUaL+9QkHUrGFKo56Lg9Emg5s9V/qrtNBmiR01sYhUOwu3H+VOw==\", \"time\": 0, \"size\": 88263, \"metadata\": {\"url\": \"https://registry.npmjs.org/magic-string/-/magic-string-0.30.19.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "a6521eabe3b7bb2be8b68270ed694c7bd9260b2a5ee023e4e313b2ab0ef4",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/ea/9c"
@@ -8819,6 +8801,12 @@
         "contents": "443377582687c1fe1f77f7b2103e349ed7be2fab\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/node-addon-api/-/node-addon-api-1.7.2.tgz\", \"integrity\": \"sha512-ibPK3iA+vaY1eEjESkQkM0BbCqFOaZMiXRTtdB0u7b4djtY6JnsjvPdUHVMg6xQt3B8fpTTWHI9A+ADjM9frzg==\", \"time\": 0, \"size\": 143727, \"metadata\": {\"url\": \"https://registry.npmjs.org/node-addon-api/-/node-addon-api-1.7.2.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "40d05a0809760934aebff4c68bc3fd6fb716050dc3e9d5db8756b58a6015",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/b7/b6"
+    },
+    {
+        "type": "inline",
+        "contents": "4440fc39c0771bcc5a9e86ab5d932109bb6b960b\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite-better-trigram-darwin-x64/-/sqlite-better-trigram-darwin-x64-0.0.5.tgz\", \"integrity\": \"sha512-SxrQxI8r42+WN8DZxKuTQtSPmY7TLwtk5VoKbRN6HuNkb4rx8ZmmKeVmVA8u+hLkO4bzh2GtydOrlTdIgg5g5Q==\", \"time\": 0, \"size\": 11050, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite-better-trigram-darwin-x64/-/sqlite-better-trigram-darwin-x64-0.0.5.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
+        "dest-filename": "732f2cb06b9d36b571ebb7d7bcd057d47cddef3dabb2d9f4a3032ef56b7b",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/4e/c1"
     },
     {
         "type": "inline",
@@ -8903,6 +8891,12 @@
         "contents": "4ca56389395ddb5d9d76f3510376f3717230de7c\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/onetime/-/onetime-5.1.2.tgz\", \"integrity\": \"sha512-kbpaSSGJTWdAY5KPVeMOKXSrPtr8C8C7wodJbcsd51jRnmD+GZu8Y0VoU6Dm5Z4vWr0Ig/1NKuWRKf7j5aaYSg==\", \"time\": 0, \"size\": 2741, \"metadata\": {\"url\": \"https://registry.npmjs.org/onetime/-/onetime-5.1.2.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "9b48180c4c71635d2e5591577ff5c9e73379ebfa6695e0fd88aec9d590d1",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/35/61"
+    },
+    {
+        "type": "inline",
+        "contents": "4cd0fd10343e49c4f4f330f7dc1f39bc1498f251\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite3-fts5-html-darwin-arm64/-/sqlite3-fts5-html-darwin-arm64-0.0.6.tgz\", \"integrity\": \"sha512-qMSUJs9py8X5VK96YuiRrORCSxINoIaK/lYOQt7dGwOGnfP8qpdvj5FoQMkNnb5s2kd2xqko1o5io3iJFq2sZA==\", \"time\": 0, \"size\": 131137, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite3-fts5-html-darwin-arm64/-/sqlite3-fts5-html-darwin-arm64-0.0.6.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
+        "dest-filename": "1c49d904849c9e2f262ed505db59b9c4d9bc5771077e33c736e5d3712ed9",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/de/01"
     },
     {
         "type": "inline",
@@ -9020,12 +9014,6 @@
     },
     {
         "type": "inline",
-        "contents": "5587856ea12a5cbd33ba94af157a63d7f9a2899d\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite3-fts5-html-windows-x64/-/sqlite3-fts5-html-windows-x64-0.0.4.tgz\", \"integrity\": \"sha512-FxLloBxWtsIGUMxbvOLNY9+FXJYEcku1xVqJarLfGKcXX7zvS3yXMP0dYeld2lQ/evNiLgvLMNLhUFwhEln1vA==\", \"time\": 0, \"size\": 111405, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite3-fts5-html-windows-x64/-/sqlite3-fts5-html-windows-x64-0.0.4.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
-        "dest-filename": "3dd299b3da031b5009d354745701fb128569a799c0ce190e9ca281f2fe90",
-        "dest": "flatpak-node/npm-cache/_cacache/index-v5/3c/ae"
-    },
-    {
-        "type": "inline",
         "contents": "55dc518ad4ed2a09b7c89ca41ae70c63b34d4aeb\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.2.tgz\", \"integrity\": \"sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==\", \"time\": 0, \"size\": 2313, \"metadata\": {\"url\": \"https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.2.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "6fe07a61a892f6f6531a5c2b91b04027042da092d88fd7fc49eea54646d0",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/49/eb"
@@ -9071,6 +9059,12 @@
         "contents": "59d9db48911cfbebe9cdd5be38966f5f311fb94b\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/@npmcli/move-file/-/move-file-2.0.1.tgz\", \"integrity\": \"sha512-mJd2Z5TjYWq/ttPLLGqArdtnC74J6bOzg4rMDnN+p1xTacZ2yPRCk2y0oSWQtygLR9YVQXgOcONrwtnk3JupxQ==\", \"time\": 0, \"size\": 3112, \"metadata\": {\"url\": \"https://registry.npmjs.org/@npmcli/move-file/-/move-file-2.0.1.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "c32a1cfd084311e014b145d6a9385931cf97db011b8e60d05f5b9d472702",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/49/5b"
+    },
+    {
+        "type": "inline",
+        "contents": "5a78cd061da5e867f3b627b8f3c4f4b426ff93c6\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite-better-trigram-windows-arm64/-/sqlite-better-trigram-windows-arm64-0.0.5.tgz\", \"integrity\": \"sha512-HEY3GbhtINKyM2ztcBJ7GqpgHNDA0aBUFNnKsvAkorF08+0v0sRs3oZsoDBqDQY0tm90iUZVLoTqvtN3sLhaGw==\", \"time\": 0, \"size\": 75875, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite-better-trigram-windows-arm64/-/sqlite-better-trigram-windows-arm64-0.0.5.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
+        "dest-filename": "b1a4de443cf8d9dc0fbbae7872c88b3b5a6a525326fb4bd996b8d20c2231",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/22/15"
     },
     {
         "type": "inline",
@@ -9137,12 +9131,6 @@
         "contents": "5ffd78727acfd836aa655a4aee414e7623bfa2eb\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.52.4.tgz\", \"integrity\": \"sha512-QRWSW+bVccAvZF6cbNZBJwAehmvG9NwfWHwMy4GbWi/BQIA/laTIktebT2ipVjNncqE6GLPxOok5hsECgAxGZg==\", \"time\": 0, \"size\": 839506, \"metadata\": {\"url\": \"https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.52.4.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "27b77ccd52971300b43a76b2c9872cd02c6e284d1233db1eba9cb11089c3",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/c0/44"
-    },
-    {
-        "type": "inline",
-        "contents": "6027c0f22ebceabf21ea511a0d6faffd1a69e6be\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite3-fts5-html-linux-arm64/-/sqlite3-fts5-html-linux-arm64-0.0.4.tgz\", \"integrity\": \"sha512-+xgRPpD7fdXNJPKaggHE5BkSF00aI8rlHHZ+pXZR2GmFyRr++jt34MA5avO4G6oI4mrZ82wUV+sWUqd8FErRBw==\", \"time\": 0, \"size\": 152612, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite3-fts5-html-linux-arm64/-/sqlite3-fts5-html-linux-arm64-0.0.4.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
-        "dest-filename": "54dffd55275afb2eab4dc3766916c85a0da3b778bac71e43a8e01243c3af",
-        "dest": "flatpak-node/npm-cache/_cacache/index-v5/d5/8c"
     },
     {
         "type": "inline",
@@ -9266,6 +9254,12 @@
     },
     {
         "type": "inline",
+        "contents": "6af87b6b74e3f3b3ee1e8fefd8a361bc9af89210\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite-better-trigram-linux-x64/-/sqlite-better-trigram-linux-x64-0.0.5.tgz\", \"integrity\": \"sha512-AqiEOF7fK8MPcJKxWkkrF9DWSs5Ma/AlJfuWDrdxKzlLPaV4OWucL2zm/ShdEMGZ+Uz5EgTShGxnvLRRMmZYsQ==\", \"time\": 0, \"size\": 12484, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite-better-trigram-linux-x64/-/sqlite-better-trigram-linux-x64-0.0.5.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
+        "dest-filename": "b42200ba747e7b22630cb71ba9f644873f8f0ab50cef524bafe3cca6324c",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/8c/ad"
+    },
+    {
+        "type": "inline",
         "contents": "6b34e8f0115245837a7cf95cb285ae69911fd5ef\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.6.tgz\", \"integrity\": \"sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==\", \"time\": 0, \"size\": 3018, \"metadata\": {\"url\": \"https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.6.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "ad46d55ca529175e31495e24424ec24ed59ce48817f490f64c05d7211bb9",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/08/6b"
@@ -9380,12 +9374,6 @@
     },
     {
         "type": "inline",
-        "contents": "74dc72cb12dbbedc6737f84fd18dd331ac2a9cba\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite3-fts5-html-windows-arm64/-/sqlite3-fts5-html-windows-arm64-0.0.4.tgz\", \"integrity\": \"sha512-rQKLrX90TKIMgD7zSrOk/U6q0KEBiTaB2nXDONcK4d/CYpnG9g/N/i6Ady98j5+v/PgqymchgtRwvgBHOZzCfw==\", \"time\": 0, \"size\": 109641, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite3-fts5-html-windows-arm64/-/sqlite3-fts5-html-windows-arm64-0.0.4.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
-        "dest-filename": "8ffde145aef510d6e65e318353c07c4a377c5248aab47439db9be789c528",
-        "dest": "flatpak-node/npm-cache/_cacache/index-v5/38/2d"
-    },
-    {
-        "type": "inline",
         "contents": "74ff61774e8caa1cd38aaeee68ade2ff4ed6c2d3\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/node-abi/-/node-abi-3.77.0.tgz\", \"integrity\": \"sha512-DSmt0OEcLoK4i3NuscSbGjOf3bqiDEutejqENSplMSFA/gmB8mkED9G4pKWnPl7MDU4rSHebKPHeitpDfyH0cQ==\", \"time\": 0, \"size\": 3981, \"metadata\": {\"url\": \"https://registry.npmjs.org/node-abi/-/node-abi-3.77.0.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "acfe113ac34137dbe6a4259ce3598fa23d62e5d8b16ea77f7d08ab3eb634",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/93/e6"
@@ -9428,6 +9416,12 @@
     },
     {
         "type": "inline",
+        "contents": "774df59056d885986a50548bfeca9dac4ae2a368\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite3-fts5-html-windows-x64/-/sqlite3-fts5-html-windows-x64-0.0.6.tgz\", \"integrity\": \"sha512-rMjO3yNcqvfVeI5cDWcLYut43s9n4vHVvFL129AJIDarFz/r99VXC34kIdPupW6GIlh2v/c3Jj3TtuXlOyulrQ==\", \"time\": 0, \"size\": 159496, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite3-fts5-html-windows-x64/-/sqlite3-fts5-html-windows-x64-0.0.6.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
+        "dest-filename": "9e92b45ebe6c5b6319ea0c81c58837abb7fd30413cebbc6214cdec2ee044",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/1c/29"
+    },
+    {
+        "type": "inline",
         "contents": "788dde1a1bccf85bd1e8ec4e441c806507e926c9\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/async-exit-hook/-/async-exit-hook-2.0.1.tgz\", \"integrity\": \"sha512-NW2cX8m1Q7KPA7a5M2ULQeZ2wR5qI5PAbw5L0UOMxdioVk9PMZ0h1TmyZEkPYrCvYjDlFICusOu1dlEKAAeXBw==\", \"time\": 0, \"size\": 4662, \"metadata\": {\"url\": \"https://registry.npmjs.org/async-exit-hook/-/async-exit-hook-2.0.1.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "f7c199fba9261b92a884e4e207b05388761c224a6f43097aeca01664cd8a",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/92/73"
@@ -9443,12 +9437,6 @@
         "contents": "79df6aeacb3a61b65cca811e9740a8ab7b741819\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/tiny-async-pool/-/tiny-async-pool-1.3.0.tgz\", \"integrity\": \"sha512-01EAw5EDrcVrdgyCLgoSPvqznC0sVxDSVeiOz09FUpjh71G79VCqneOr+xvt7T1r76CF6ZZfPjHorN2+d+3mqA==\", \"time\": 0, \"size\": 2677, \"metadata\": {\"url\": \"https://registry.npmjs.org/tiny-async-pool/-/tiny-async-pool-1.3.0.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "b9e22026b9c7d32f01eebcaae1ba78a0c50fff9f6daa3c7fd8351e1f2f84",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/1c/e3"
-    },
-    {
-        "type": "inline",
-        "contents": "79e4f87b7e82280491e935723cf99115d5751c10\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite-better-trigram-linux-arm64/-/sqlite-better-trigram-linux-arm64-0.0.3.tgz\", \"integrity\": \"sha512-NTykERCSxAutAtJ9ITwOQBitC9zDg61tTDoLOGdMoDO2iAQNLuGApNS8qFvnCNl1wZy8yowI24rHYMCWLDIEIA==\", \"time\": 0, \"size\": 11148, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite-better-trigram-linux-arm64/-/sqlite-better-trigram-linux-arm64-0.0.3.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
-        "dest-filename": "c3ae63f251a4b5574d580415d319a5afc26d1ca1b38f69b523894cb107d9",
-        "dest": "flatpak-node/npm-cache/_cacache/index-v5/66/cf"
     },
     {
         "type": "inline",
@@ -9644,12 +9632,6 @@
     },
     {
         "type": "inline",
-        "contents": "855efb2d11e77fb5dfd17674b4324cc247d26ae5\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite-better-trigram-darwin-x64/-/sqlite-better-trigram-darwin-x64-0.0.3.tgz\", \"integrity\": \"sha512-IQzFzXt0ib1MZ/UQm71X7RKv8G0vwepNqcmncWbK1R7LAWwpS/qaJ1NyrMOhL2AnfeQ33x1IkQE0GlamxFVC9A==\", \"time\": 0, \"size\": 10919, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite-better-trigram-darwin-x64/-/sqlite-better-trigram-darwin-x64-0.0.3.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
-        "dest-filename": "be2f28fa737e8b9f239e8142a6955df3dd629e43bde115577c511938ad31",
-        "dest": "flatpak-node/npm-cache/_cacache/index-v5/bb/ca"
-    },
-    {
-        "type": "inline",
         "contents": "86180949c3acd939a90e607d30fa061ab7f8efff\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/tinyspy/-/tinyspy-4.0.4.tgz\", \"integrity\": \"sha512-azl+t0z7pw/z958Gy9svOTuzqIk6xq+NSheJzn5MMWtWTFywIacg2wUlzKFGtt3cthx0r2SxMK0yzJOR0IES7Q==\", \"time\": 0, \"size\": 4214, \"metadata\": {\"url\": \"https://registry.npmjs.org/tinyspy/-/tinyspy-4.0.4.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "594cd90e57dbff17830cc8bb20f6589264d4dcb89896acee406284225607",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/9f/57"
@@ -9701,6 +9683,12 @@
         "contents": "8c084c7ae5707b44c8c6538a46398ea4595e9711\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/object-keys/-/object-keys-1.1.1.tgz\", \"integrity\": \"sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==\", \"time\": 0, \"size\": 7677, \"metadata\": {\"url\": \"https://registry.npmjs.org/object-keys/-/object-keys-1.1.1.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "4823d25a60802304e58edaa16fb53111bb559d3aa89a535a31db203d673c",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/43/e2"
+    },
+    {
+        "type": "inline",
+        "contents": "8c4f29ad8fb179c69798e411920b48723e1c963e\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite3-fts5-html-linux-arm64/-/sqlite3-fts5-html-linux-arm64-0.0.6.tgz\", \"integrity\": \"sha512-Xl4pokUU4OsyroHYAoCFh7R03s6V2ApcQZImmNsVpWlAviVhlAQ3NxSBhXtJ2HNyyVJjnkJZvQnXG0zRBLZDXw==\", \"time\": 0, \"size\": 152205, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite3-fts5-html-linux-arm64/-/sqlite3-fts5-html-linux-arm64-0.0.6.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
+        "dest-filename": "b17ff77f65d00a5d839eb4e2b3ac3487a07a9336d7aec54ebe323e6c759a",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/20/2f"
     },
     {
         "type": "inline",
@@ -9956,12 +9944,6 @@
     },
     {
         "type": "inline",
-        "contents": "9be51a9706ace11a9040a9623d053becbd173e1f\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite-better-trigram-windows-arm64/-/sqlite-better-trigram-windows-arm64-0.0.3.tgz\", \"integrity\": \"sha512-hXIT+PkkJQ3vJ0+E8Zh2/BoOCQ2dRj6LmchjP7T5afpbKXI/lcI77Cgk3tPwe8s/Ywci6OyeJwcaFuBtf1CLhw==\", \"time\": 0, \"size\": 75880, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite-better-trigram-windows-arm64/-/sqlite-better-trigram-windows-arm64-0.0.3.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
-        "dest-filename": "2f91f5b8337e49820d501cdcd2aa4c467b3eb063808ffdea8a372f232ec9",
-        "dest": "flatpak-node/npm-cache/_cacache/index-v5/4a/0a"
-    },
-    {
-        "type": "inline",
         "contents": "9be63e4c3fef0824ca87780f26d17957d0606418\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz\", \"integrity\": \"sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==\", \"time\": 0, \"size\": 9972, \"metadata\": {\"url\": \"https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "5d7b3f4c369d1d62065d5ca8f8572d2231a581ff043c996b2f5838c201ab",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/59/0e"
@@ -10031,6 +10013,12 @@
         "contents": "a0be89300eb8ed18b2befa067c479eba68163fb9\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz\", \"integrity\": \"sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==\", \"time\": 0, \"size\": 2206, \"metadata\": {\"url\": \"https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "f7d95a8e3571758f8b5d095a21909a8f6cdfe7fd2349f7f72b2801eef079",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/ba/d5"
+    },
+    {
+        "type": "inline",
+        "contents": "a0c1aac33d1dbfe522727b1575a1b6c56c562072\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite-better-trigram-darwin-arm64/-/sqlite-better-trigram-darwin-arm64-0.0.5.tgz\", \"integrity\": \"sha512-AVSfFHLDAuttkKtlXCMHbhtV6Dv8M48e4ucTfjMOpGenJTEWmXx3Goj/ZCHe3uLEW57qaely15AAl/xFOsGSLA==\", \"time\": 0, \"size\": 11353, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite-better-trigram-darwin-arm64/-/sqlite-better-trigram-darwin-arm64-0.0.5.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
+        "dest-filename": "484a2e93f88d15b09e1e9680f3d48ecb96b7d5e1b5f44ec50ff6b3028b42",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/c8/70"
     },
     {
         "type": "inline",
@@ -10337,12 +10325,6 @@
         "contents": "b730bc681cfb5a4867f3791f096f59e3edcecb33\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/abort-controller/-/abort-controller-3.0.0.tgz\", \"integrity\": \"sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==\", \"time\": 0, \"size\": 17548, \"metadata\": {\"url\": \"https://registry.npmjs.org/abort-controller/-/abort-controller-3.0.0.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "2572e4f6479b462303996e05223b531b7f58c8edfbab4c0654964109ab80",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/d2/e0"
-    },
-    {
-        "type": "inline",
-        "contents": "b75a5ea80bc5f0b646aeae55358b0df3e862cd1d\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite3-fts5-html-linux-x64/-/sqlite3-fts5-html-linux-x64-0.0.4.tgz\", \"integrity\": \"sha512-4ah7IiDUH9kpCPoqT4lW6FcWcNiVF0wtpywW82UVfkawbmgLFPGqSQFqHyChmp1b2dsrkO5X/bhq9E2BR0/xmQ==\", \"time\": 0, \"size\": 179217, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite3-fts5-html-linux-x64/-/sqlite3-fts5-html-linux-x64-0.0.4.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
-        "dest-filename": "bbc2b96c444067cdddb5c6679ddbfffc0b02990431c57105a5f65012b6fa",
-        "dest": "flatpak-node/npm-cache/_cacache/index-v5/9f/87"
     },
     {
         "type": "inline",
@@ -10898,6 +10880,12 @@
     },
     {
         "type": "inline",
+        "contents": "de09795399123e0b92f864c13a1f2a930db4fa28\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite-better-trigram/-/sqlite-better-trigram-0.0.5.tgz\", \"integrity\": \"sha512-LDAuMzU2u9rhJyNmSxZyJiL3lWb8FjUqX/JZ3dwmo16Cl0zmkzFvGS94yfjLhwEce1yg1UE851Mz5UplWNhhpg==\", \"time\": 0, \"size\": 1390, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite-better-trigram/-/sqlite-better-trigram-0.0.5.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
+        "dest-filename": "90626ff88a55d41e58a7cb1708058e2c963cfad2c458dc915232eee6f457",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/ef/ad"
+    },
+    {
+        "type": "inline",
         "contents": "deac2ae624ec88cdaf7649cdcdc6950f19244288\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/@esbuild/linux-ppc64/-/linux-ppc64-0.21.5.tgz\", \"integrity\": \"sha512-1hHV/Z4OEfMwpLO8rp7CvlhBDnjsC3CttJXIhBi+5Aj5r+MBvy4egg7wCbe//hSsT+RvDAG7s81tAvpL2XAE4w==\", \"time\": 0, \"size\": 3690416, \"metadata\": {\"url\": \"https://registry.npmjs.org/@esbuild/linux-ppc64/-/linux-ppc64-0.21.5.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "2f4a7fe236605e83980e7ec10d0f4602de4cfc9a2c9cf49fc7e69c16f624",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/ed/71"
@@ -10943,6 +10931,12 @@
         "contents": "e074329ee154ca7a413d4ca4af8c89f1b550d009\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/@esbuild/freebsd-arm64/-/freebsd-arm64-0.21.5.tgz\", \"integrity\": \"sha512-5JcRxxRDUJLX8JXp/wcBCy3pENnCgBR9bN6JsY4OmhfUtIHe3ZW0mawA7+RDAcMLrMIZaf03NlQiX9DGyB8h4g==\", \"time\": 0, \"size\": 3765769, \"metadata\": {\"url\": \"https://registry.npmjs.org/@esbuild/freebsd-arm64/-/freebsd-arm64-0.21.5.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "5dfa2517bd157c31a86d99c03f6d8683dbbf06b3bf4f22fd4f0a7c713ee5",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/15/e7"
+    },
+    {
+        "type": "inline",
+        "contents": "e082bed35ab8f3bb0959394e1e07b108804e1b4a\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite-better-trigram-windows-x64/-/sqlite-better-trigram-windows-x64-0.0.5.tgz\", \"integrity\": \"sha512-JeLPlGc5yL7KL/uqAgcRb9wwS51xN1aezP18k2dvuxpXWmfGDc8e8/bpKYVVzUbnMF63MdpSa9PBch2NhT6CPA==\", \"time\": 0, \"size\": 88457, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite-better-trigram-windows-x64/-/sqlite-better-trigram-windows-x64-0.0.5.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
+        "dest-filename": "5b43df0e1bbdffa78eec73f61871d1700feff8908ac71e0a916245d790c5",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/1e/6b"
     },
     {
         "type": "inline",
@@ -11243,6 +11237,12 @@
         "contents": "f8c9909baa38037ac38a337cbe93caeb877a68c6\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/encoding/-/encoding-0.1.13.tgz\", \"integrity\": \"sha512-ETBauow1T35Y/WZMkio9jiM0Z5xjHHmJ4XmjZOq1l/dXz3lr2sRn87nJy20RupqSh1F2m3HHPSp8ShIPQJrJ3A==\", \"time\": 0, \"size\": 3040, \"metadata\": {\"url\": \"https://registry.npmjs.org/encoding/-/encoding-0.1.13.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "177c11d0147ed20d569acc59111a4be65dfdaa7862d2d5e8cb0463676b56",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/9d/34"
+    },
+    {
+        "type": "inline",
+        "contents": "f9e62cd778d6fb9a77dc542b509c845d47b5bcf8\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/sqlite3-fts5-html-darwin-x64/-/sqlite3-fts5-html-darwin-x64-0.0.6.tgz\", \"integrity\": \"sha512-T7ouo1HZffrfuVKy0GkPR6dJvGeiaaWlqCDrQdNvpL7F6DUyaZIGd9FJSwxBjTWaOTOW7glg+sedBGntokpZqw==\", \"time\": 0, \"size\": 132591, \"metadata\": {\"url\": \"https://registry.npmjs.org/sqlite3-fts5-html-darwin-x64/-/sqlite3-fts5-html-darwin-x64-0.0.6.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
+        "dest-filename": "b7413b05d52754e53f2c19344121614c5f9aa5b159c945066f4d779ae96e",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/17/5d"
     },
     {
         "type": "inline",
@@ -17642,12 +17642,6 @@
     },
     {
         "type": "inline",
-        "contents": "05b7b9c2ff3d794ef94abe3b28d227058222ea88\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/@tsconfig%2fnode10\", \"integrity\": \"sha256-QRKLlrD6kvkZyF+WEVBtu2+1Yk9UYGdiO2bIprY2y+E=\", \"time\": 0, \"size\": 2350, \"metadata\": {\"url\": \"https://registry.npmjs.org/@tsconfig%2fnode10\", \"reqHeaders\": {\"accept\": \"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*\"}, \"resHeaders\": {}}}",
-        "dest-filename": "be9e8d92e3e1f8898fedbe33cae4e67f0352de1b0d48fee9cb29ecc1d6ab",
-        "dest": "flatpak-node/npm-cache/_cacache/index-v5/c3/c6"
-    },
-    {
-        "type": "inline",
         "contents": "062c157a258c356eb5d0ff406805815d4fbd2c7b\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz\", \"integrity\": \"sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==\", \"time\": 0, \"size\": 8996, \"metadata\": {\"url\": \"https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "453bd89145eccf9d67f5797fb09e5a017b5b13f1ac45cb7b70bda45940ec",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/5e/e7"
@@ -18527,6 +18521,12 @@
         "contents": "8b1743724dd2f612d857886dc91138b66c6df24b\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/@tsconfig%2fnode16\", \"integrity\": \"sha256-5/r8Dvw3nhDUZtGNOUgAyH6cnrB5CUFUZyNYDH3qJos=\", \"time\": 0, \"size\": 2350, \"metadata\": {\"url\": \"https://registry.npmjs.org/@tsconfig%2fnode16\", \"reqHeaders\": {\"accept\": \"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*\"}, \"resHeaders\": {}}}",
         "dest-filename": "93eac58d3d5aa3f5721ac09fa7c3b814ccb98bc5000550243f4497f78a67",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/45/2e"
+    },
+    {
+        "type": "inline",
+        "contents": "8b2905ade36661a4b36d36bd7db977cbf99229ce\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/@tsconfig%2fnode10\", \"integrity\": \"sha256-pMbcr5boWuFW8mFmnlFEVbUBHQPx7kcFp4ILavnn+9Y=\", \"time\": 0, \"size\": 2350, \"metadata\": {\"url\": \"https://registry.npmjs.org/@tsconfig%2fnode10\", \"reqHeaders\": {\"accept\": \"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*\"}, \"resHeaders\": {}}}",
+        "dest-filename": "be9e8d92e3e1f8898fedbe33cae4e67f0352de1b0d48fee9cb29ecc1d6ab",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/c3/c6"
     },
     {
         "type": "inline",
@@ -19566,10 +19566,10 @@
     },
     {
         "type": "inline",
-        "contents": "eyJ2ZXJzaW9ucyI6IHsiMS4wLjkiOiB7Im5hbWUiOiAiQHRzY29uZmlnL25vZGUxMCIsICJyZXBvc2l0b3J5IjogeyJ0eXBlIjogImdpdCIsICJ1cmwiOiAiZ2l0K2h0dHBzOi8vZ2l0aHViLmNvbS90c2NvbmZpZy9iYXNlcy5naXQiLCAiZGlyZWN0b3J5IjogImJhc2VzIn0sICJsaWNlbnNlIjogIk1JVCIsICJkZXNjcmlwdGlvbiI6ICJBIGJhc2UgVFNDb25maWcgZm9yIHdvcmtpbmcgd2l0aCBOb2RlIDEwLiIsICJrZXl3b3JkcyI6IFsidHNjb25maWciLCAibm9kZTEwIl0sICJ2ZXJzaW9uIjogIjEuMC45IiwgImJ1Z3MiOiB7InVybCI6ICJodHRwczovL2dpdGh1Yi5jb20vdHNjb25maWcvYmFzZXMvaXNzdWVzIn0sICJob21lcGFnZSI6ICJodHRwczovL2dpdGh1Yi5jb20vdHNjb25maWcvYmFzZXMjcmVhZG1lIiwgIl9pZCI6ICJAdHNjb25maWcvbm9kZTEwQDEuMC45IiwgIl9ub2RlVmVyc2lvbiI6ICIxMC4yNC4xIiwgIl9ucG1WZXJzaW9uIjogIjYuMTQuMTIiLCAiZGlzdCI6IHsiaW50ZWdyaXR5IjogInNoYTUxMi1qTnNZVlZ4VTh2NWc0M0VyamEzMmxhSURIWGVvTnZGRXBYMzNPSzRkNmhsam8zakRoQ0JEaHg1ZGhDQ1RNV1VvanNjcEFhZ0dpUmtCS3hwZGw5ZnhxQT09IiwgInNoYXN1bSI6ICJkZjQ5MDdmYzA3YTg4NjkyMjYzN2IxNWUwMmQ0Y2ViYzRjMDAyMWIyIiwgInRhcmJhbGwiOiAiaHR0cHM6Ly9yZWdpc3RyeS5ucG1qcy5vcmcvQHRzY29uZmlnL25vZGUxMC8tL25vZGUxMC0xLjAuOS50Z3oiLCAiZmlsZUNvdW50IjogNCwgInVucGFja2VkU2l6ZSI6IDIzOTIsICJzaWduYXR1cmVzIjogW3sia2V5aWQiOiAiU0hBMjU2OmpsM2J3c3d1ODBQampva0NnaDBvMnc1YzJVNExoUUFFNTdnajljejFrekEiLCAic2lnIjogIk1FVUNJUUNRdWt6TWM3R3NEcVlWemxDWGZBWWtxZ3dwSGpBQWhQSXdGVkJKc2l4WkpRSWdYc0tmS0RJT1EyUXdJek1oY0FGMW1SU2pNcXNRU1U5TFlzVGpCMlBRblFzPSJ9XSwgIm5wbS1zaWduYXR1cmUiOiAiLS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS1cclxuVmVyc2lvbjogT3BlblBHUC5qcyB2NC4xMC4xMFxyXG5Db21tZW50OiBodHRwczovL29wZW5wZ3Bqcy5vcmdcclxuXHJcbndzRnpCQUVCQ0FBR0JRSmlwQmJuQUNFSkVEMU5XeElDZGxacUZpRUVDV01ZQW9vcldNaEpLZGpoUFUxYlxyXG5FZ0oyVm1waE5RLytOZmR4cktCUk52ZlVGZENaVmtGdGk2M0JXNndOY1FEL3N0eS9mVWZSYjVubUhNbTFcclxuc01JUG9kMkJOUjlHOEEzZGk0TnBKdmtyR2NsOGxMblNCRFB5ems2dTU5aGVEMTVEazBNSjd3UlFkZHZ5XHJcbnBscEJIUmo4QVUrbHVLd1lwYUJQbGFkNFB2WklvNWloZC82K083akFUK0dNU1V0WEJTeWx3aUUwOXkvT1xyXG44MUo4eGlDYXdDWkFQalJ1aXJtT3hTN2IrUE13bWpDdnlHWWJGdDJBbUtkZThwdXloVWlhS25Hczd5YjlcclxubDM2SDBNVDBTZk8zeGd2NUNiYis4d2FTMWhGUkxGZm43ZDIwb3hZelQ2ZndUY3A3cjlTMmR5MUlyQWZpXHJcbjFlWEVMSm1jWG5kUTEyUjUyV2J6R294bXJMM1lFV0cwdXdacHJXNHFaNU8wVDgydXZiOFdNUnp4NzlQOVxyXG5OR0dTdFd0M05GRXZtRXN4RnZRaU5WMHYrR0JOeHMrZWYyeTkvd2wyYXRhTlpweTFBTjZXQ0J4Z05tK01cclxuRkZPb3lBRkg0Ymd0NHlGai9lRk1CVU1QdkhnZkpRYWcwLzM4eG5zWERlQWJwbTI5T3ZkN1FySzR4WFZkXHJcbmkzcU5ZOG5UV0ZiQ1FwSXJTNU05UkYwc3hlUndmV2hoWUxCUGM0dnNZKzdIQTdDQ3UwYXVUMW9HV1NSR1xyXG5uWmY0MG11ZmRJWlFoTG5zM1M1cGpRNjNGYzZLbGljUUcxTHhPS3lBZjUxWU1QYmp6RXhJSEFKVW4wRzZcclxucmZvUk9ZVW5SL09wLzM1eWNQOCtROVkvZHpGQ1VpSFRjN3U1bkNSZDJOWkd3czJqTVlaL1l0L1F2R3M0XHJcbnRUclZkZEt5V1RqZGczeXZib3V1NlNEcXlwa0k5eElEMTZBPVxyXG49R3dMMVxyXG4tLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS1cclxuIn0sICJfbnBtVXNlciI6IHsibmFtZSI6ICJ0eXBlc2NyaXB0LWRlcGxveXMiLCAiZW1haWwiOiAidHlwZXNjcmlwdC1kZXNpZ25AbWljcm9zb2Z0LmNvbSJ9LCAiZGlyZWN0b3JpZXMiOiB7fSwgIm1haW50YWluZXJzIjogW3sibmFtZSI6ICJvcnRhIiwgImVtYWlsIjogIm9ydGEudGhlcm94QGdtYWlsLmNvbSJ9LCB7Im5hbWUiOiAidHlwZXNjcmlwdC1kZXBsb3lzIiwgImVtYWlsIjogInR5cGVzY3JpcHQtZGVzaWduQG1pY3Jvc29mdC5jb20ifV0sICJfbnBtT3BlcmF0aW9uYWxJbnRlcm5hbCI6IHsiaG9zdCI6ICJzMzovL25wbS1yZWdpc3RyeS1wYWNrYWdlcyIsICJ0bXAiOiAidG1wL25vZGUxMF8xLjAuOV8xNjU0OTIwOTM0ODQ2XzAuOTI2NzE0NjA2OTUxMDI4MSJ9LCAiX2hhc1Nocmlua3dyYXAiOiBmYWxzZX19fQ==",
+        "contents": "eyJ2ZXJzaW9ucyI6IHsiMS4wLjkiOiB7Im5hbWUiOiAiQHRzY29uZmlnL25vZGUxMCIsICJ2ZXJzaW9uIjogIjEuMC45IiwgImtleXdvcmRzIjogWyJ0c2NvbmZpZyIsICJub2RlMTAiXSwgImxpY2Vuc2UiOiAiTUlUIiwgIl9pZCI6ICJAdHNjb25maWcvbm9kZTEwQDEuMC45IiwgIm1haW50YWluZXJzIjogW3sibmFtZSI6ICJvcnRhIiwgImVtYWlsIjogIm9ydGEudGhlcm94QGdtYWlsLmNvbSJ9LCB7Im5hbWUiOiAidHlwZXNjcmlwdC1kZXBsb3lzIiwgImVtYWlsIjogInR5cGVzY3JpcHQtZGVzaWduQG1pY3Jvc29mdC5jb20ifV0sICJob21lcGFnZSI6ICJodHRwczovL2dpdGh1Yi5jb20vdHNjb25maWcvYmFzZXMjcmVhZG1lIiwgImJ1Z3MiOiB7InVybCI6ICJodHRwczovL2dpdGh1Yi5jb20vdHNjb25maWcvYmFzZXMvaXNzdWVzIn0sICJkaXN0IjogeyJzaGFzdW0iOiAiZGY0OTA3ZmMwN2E4ODY5MjI2MzdiMTVlMDJkNGNlYmM0YzAwMjFiMiIsICJ0YXJiYWxsIjogImh0dHBzOi8vcmVnaXN0cnkubnBtanMub3JnL0B0c2NvbmZpZy9ub2RlMTAvLS9ub2RlMTAtMS4wLjkudGd6IiwgImZpbGVDb3VudCI6IDQsICJpbnRlZ3JpdHkiOiAic2hhNTEyLWpOc1lWVnhVOHY1ZzQzRXJqYTMybGFJREhYZW9OdkZFcFgzM09LNGQ2aGxqbzNqRGhDQkRoeDVkaENDVE1XVW9qc2NwQWFnR2lSa0JLeHBkbDlmeHFBPT0iLCAic2lnbmF0dXJlcyI6IFt7InNpZyI6ICJNRVVDSVFDUXVrek1jN0dzRHFZVnpsQ1hmQVlrcWd3cEhqQUFoUEl3RlZCSnNpeFpKUUlnWHNLZktESU9RMlF3SXpNaGNBRjFtUlNqTXFzUVNVOUxZc1RqQjJQUW5Rcz0iLCAia2V5aWQiOiAiU0hBMjU2OmpsM2J3c3d1ODBQampva0NnaDBvMnc1YzJVNExoUUFFNTdnajljejFrekEifV0sICJ1bnBhY2tlZFNpemUiOiAyMzkyLCAibnBtLXNpZ25hdHVyZSI6ICItLS0tLUJFR0lOIFBHUCBTSUdOQVRVUkUtLS0tLVxyXG5WZXJzaW9uOiBPcGVuUEdQLmpzIHY0LjEwLjEwXHJcbkNvbW1lbnQ6IGh0dHBzOi8vb3BlbnBncGpzLm9yZ1xyXG5cclxud3NGekJBRUJDQUFHQlFKaXBCYm5BQ0VKRUQxTld4SUNkbFpxRmlFRUNXTVlBb29yV01oSktkamhQVTFiXHJcbkVnSjJWbXBoTlEvK05mZHhyS0JSTnZmVUZkQ1pWa0Z0aTYzQlc2d05jUUQvc3R5L2ZVZlJiNW5tSE1tMVxyXG5zTUlQb2QyQk5SOUc4QTNkaTROcEp2a3JHY2w4bExuU0JEUHl6azZ1NTloZUQxNURrME1KN3dSUWRkdnlcclxucGxwQkhSajhBVStsdUt3WXBhQlBsYWQ0UHZaSW81aWhkLzYrTzdqQVQrR01TVXRYQlN5bHdpRTA5eS9PXHJcbjgxSjh4aUNhd0NaQVBqUnVpcm1PeFM3YitQTXdtakN2eUdZYkZ0MkFtS2RlOHB1eWhVaWFLbkdzN3liOVxyXG5sMzZIME1UMFNmTzN4Z3Y1Q2JiKzh3YVMxaEZSTEZmbjdkMjBveFl6VDZmd1RjcDdyOVMyZHkxSXJBZmlcclxuMWVYRUxKbWNYbmRRMTJSNTJXYnpHb3htckwzWUVXRzB1d1pwclc0cVo1TzBUODJ1dmI4V01Seng3OVA5XHJcbk5HR1N0V3QzTkZFdm1Fc3hGdlFpTlYwditHQk54cytlZjJ5OS93bDJhdGFOWnB5MUFONldDQnhnTm0rTVxyXG5GRk9veUFGSDRiZ3Q0eUZqL2VGTUJVTVB2SGdmSlFhZzAvMzh4bnNYRGVBYnBtMjlPdmQ3UXJLNHhYVmRcclxuaTNxTlk4blRXRmJDUXBJclM1TTlSRjBzeGVSd2ZXaGhZTEJQYzR2c1krN0hBN0NDdTBhdVQxb0dXU1JHXHJcbm5aZjQwbXVmZElaUWhMbnMzUzVwalE2M0ZjNktsaWNRRzFMeE9LeUFmNTFZTVBianpFeElIQUpVbjBHNlxyXG5yZm9ST1lVblIvT3AvMzV5Y1A4K1E5WS9kekZDVWlIVGM3dTVuQ1JkMk5aR3dzMmpNWVovWXQvUXZHczRcclxudFRyVmRkS3lXVGpkZzN5dmJvdXU2U0RxeXBrSTl4SUQxNkE9XHJcbj1Hd0wxXHJcbi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLVxyXG4ifSwgIl9ucG1Vc2VyIjogeyJuYW1lIjogInR5cGVzY3JpcHQtZGVwbG95cyIsICJlbWFpbCI6ICJ0eXBlc2NyaXB0LWRlc2lnbkBtaWNyb3NvZnQuY29tIn0sICJyZXBvc2l0b3J5IjogeyJ1cmwiOiAiZ2l0K2h0dHBzOi8vZ2l0aHViLmNvbS90c2NvbmZpZy9iYXNlcy5naXQiLCAidHlwZSI6ICJnaXQiLCAiZGlyZWN0b3J5IjogImJhc2VzIn0sICJfbnBtVmVyc2lvbiI6ICI2LjE0LjEyIiwgImRlc2NyaXB0aW9uIjogIkEgYmFzZSBUU0NvbmZpZyBmb3Igd29ya2luZyB3aXRoIE5vZGUgMTAuIiwgImRpcmVjdG9yaWVzIjoge30sICJfbm9kZVZlcnNpb24iOiAiMTAuMjQuMSIsICJfaGFzU2hyaW5rd3JhcCI6IGZhbHNlLCAiX25wbU9wZXJhdGlvbmFsSW50ZXJuYWwiOiB7InRtcCI6ICJ0bXAvbm9kZTEwXzEuMC45XzE2NTQ5MjA5MzQ4NDZfMC45MjY3MTQ2MDY5NTEwMjgxIiwgImhvc3QiOiAiczM6Ly9ucG0tcmVnaXN0cnktcGFja2FnZXMifX19fQ==",
         "base64": true,
-        "dest-filename": "8b96b0fa92f919c85f9611506dbb6fb5624f546067623b66c8a6b636cbe1",
-        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha256/41/12"
+        "dest-filename": "dcaf96e85ae156f261669e514455b5011d03f1ee4705a7820b6af9e7fbd6",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha256/a4/c6"
     },
     {
         "type": "inline",
