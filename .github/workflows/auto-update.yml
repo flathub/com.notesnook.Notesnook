@@ -41,6 +41,38 @@ jobs:
         run: |
           git checkout -- ${FLATPAK_ID}.yml *.xml
 
+      - name: update electron node version
+        run: |
+          set -e
+
+          FLATPAK_ID="com.notesnook.Notesnook"
+
+          # Extract Electron version from generated-sources.json
+          ELECTRON_VERSION=$(grep -o 'electron/releases/download/v[0-9.]*' generated-sources.json | head -1 | sed -E 's/.*v([0-9.]+)/\1/')
+          if [ -z "$ELECTRON_VERSION" ]; then
+            echo "✗ Error: Could not extract Electron version from generated-sources.json"
+            exit 1
+          fi
+          echo "Detected Electron version: $ELECTRON_VERSION"
+
+          # Show current npm_config_nodedir line
+          echo ""
+          echo "Current npm_config_nodedir:"
+          grep "npm_config_nodedir:" ${FLATPAK_ID}.yml
+
+          # Update npm_config_nodedir in the YAML file
+          sed -i.bak "s|npm_config_nodedir: /run/build/notesnook/flatpak-node/cache/node-gyp/.*|npm_config_nodedir: /run/build/notesnook/flatpak-node/cache/node-gyp/${ELECTRON_VERSION}|" ${FLATPAK_ID}.yml
+
+          rm -rf ${FLATPAK_ID}.yml.bak
+
+          echo ""
+          echo "Updated npm_config_nodedir:"
+          grep "npm_config_nodedir:" ${FLATPAK_ID}.yml
+          echo ""
+          echo "✓ Successfully updated npm_config_nodedir to ${ELECTRON_VERSION}"
+
+          echo "Done!"
+
       - uses: docker://ghcr.io/flathub/flatpak-external-data-checker:latest
         name: recheck and open pr
         env:
