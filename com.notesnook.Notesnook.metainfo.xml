@@ -73,8 +73,11 @@
     <internet>offline-only</internet>
   </supports>
   <releases>
-    <release version="v3.3.11" date="2026-03-25">
+    <release version="v3.3.12" date="2026-03-28">
       <description></description>
+    </release>
+    <release version="v3.3.11" date="2026-03-25">
+      <description/>
     </release>
     <release version="v3.3.10" date="2026-03-12">
       <description/>

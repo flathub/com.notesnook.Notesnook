@@ -3882,7 +3882,7 @@
         "type": "archive",
         "url": "https://cdn.playwright.dev/builds/chromium/1140/chromium-linux.zip",
         "strip-components": 0,
-        "sha256": "961a6435b48bb68e81a7d946ede0373129b3bb10fae3761f9ff801f4181e2358",
+        "sha256": "e78cda52fa7e847abcd36a48ffabda43e71e2220a3e9a398f7c9a179529570a5",
         "dest": "flatpak-node/cache/ms-playwright/chromium-1140"
     },
     {
