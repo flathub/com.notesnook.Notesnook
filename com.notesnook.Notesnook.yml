@@ -78,14 +78,14 @@ modules:
       - generated-sources.json
       - type: git
         url: https://github.com/streetwriters/notesnook
-        commit: 9c497fd2bbd7cc303351f0d8576a3d5442c4f16c
-        tag: v3.3.15
+        commit: b8fca5cd98a1eb9f276d7e05e786f90b69c8b5d8
+        tag: v3.3.16
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
       - type: archive
-        url: https://github.com/streetwriters/notesnook/releases/download/v3.3.15/notesnook_build_v3.3.15.zip
-        sha256: f158faebae0c6a5208d5f442398d47da0c48aa0db54eb913a040e9fe89d2e43e
+        url: https://github.com/streetwriters/notesnook/releases/download/v3.3.16/notesnook_build_v3.3.16.zip
+        sha256: 86ec4206025243ca88e95d205b0db2eeffbc5d7db34bf3e9e34f35ebcff1bb02
         strip-components: 0
         x-checker-data:
           type: json
