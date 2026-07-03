@@ -1,11 +1,11 @@
 app-id: com.notesnook.Notesnook
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: "24.08"
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '24.08'
+base-version: "24.08"
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.node20
+  - org.freedesktop.Sdk.Extension.node22
 command: start-notesnook
 separate-locales: false
 finish-args:
@@ -29,7 +29,7 @@ finish-args:
   # required to fix cursor scaling on wayland
   - --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons
 build-options:
-  append-path: /usr/lib/sdk/node20/bin
+  append-path: /usr/lib/sdk/node22/bin
   env:
     NPM_CONFIG_LOGLEVEL: info
 modules:
@@ -39,9 +39,9 @@ modules:
       env:
         XDG_CACHE_HOME: /run/build/notesnook/flatpak-node/cache
         npm_config_cache: /run/build/notesnook/flatpak-node/npm-cache
-        npm_config_offline: 'true'
+        npm_config_offline: "true"
         npm_config_runtime: electron
-        npm_config_nodedir: /run/build/notesnook/flatpak-node/cache/node-gyp/37.6.1
+        npm_config_nodedir: /run/build/notesnook/flatpak-node/cache/node-gyp/37.10.3
     build-commands:
       - ./flatpak-node/electron-builder-arch-args.sh
       - |
@@ -78,21 +78,24 @@ modules:
       - generated-sources.json
       - type: git
         url: https://github.com/streetwriters/notesnook
-        commit: 5f88375beca13b55f720a6037ea97e52709707e2
-        tag: v3.3.23
+        commit: d521eb3bd8aa86bced0d91202a5055d3c4caac6a
+        tag: v3.4.2
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
       - type: archive
-        url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_build_v3.3.23.zip
-        sha256: f7ab6d0d68ea332be84e9014d8726e582574556f29f8b1e828eda351ef867871
+        url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_build_v3.4.2.zip
+        sha256: 0ac30d5f4237a62c97089644e0dd26601b96e889c0a3c95776bc4466c7b7078f
         strip-components: 0
         x-checker-data:
           type: json
           url: https://api.github.com/repos/streetwriters/notesnook/releases/latest
           version-query: .tag_name
-          url-query: '"https://github.com/streetwriters/notesnook/releases/download/"
+          url-query:
+            '"https://github.com/streetwriters/notesnook/releases/download/"
             + $version + "/notesnook_build_" + $version + ".zip"'
+      - type: patch
+        path: patches/electron-checksum-workaround.patch
       - type: file
         path: com.notesnook.Notesnook.desktop
       - type: file
