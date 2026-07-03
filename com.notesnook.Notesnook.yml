@@ -5,7 +5,7 @@ sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
 base-version: "24.08"
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.node20
+  - org.freedesktop.Sdk.Extension.node22
 command: start-notesnook
 separate-locales: false
 finish-args:
@@ -29,7 +29,7 @@ finish-args:
   # required to fix cursor scaling on wayland
   - --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons
 build-options:
-  append-path: /usr/lib/sdk/node20/bin
+  append-path: /usr/lib/sdk/node22/bin
   env:
     NPM_CONFIG_LOGLEVEL: info
 modules:
@@ -94,6 +94,8 @@ modules:
           url-query:
             '"https://github.com/streetwriters/notesnook/releases/download/"
             + $version + "/notesnook_build_" + $version + ".zip"'
+      - type: patch
+        path: patches/electron-checksum-workaround.patch
       - type: file
         path: com.notesnook.Notesnook.desktop
       - type: file

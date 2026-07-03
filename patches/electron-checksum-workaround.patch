@@ -1,0 +1,17 @@
+diff --git a/apps/desktop/electron-builder.config.js b/apps/desktop/electron-builder.config.js
+index 1c8c0ca..5f44599 100644
+--- a/apps/desktop/electron-builder.config.js
++++ b/apps/desktop/electron-builder.config.js
+@@ -224,5 +224,11 @@ module.exports = {
+       owner: "streetwriters",
+       channel: isBeta ? "beta" : "latest"
+     }
+-  ]
++  ],
++  electronDownload: {
++    checksums: {
++      "electron-v37.10.3-linux-x64.zip": "c0b4edd6bd9858cda4cf7ab299e69a2d3ecd2e5fcca78507bc0851ba35614660",
++      "electron-v37.10.3-linux-arm64.zip": "37a228821184136fa86a8727bec19ab400524dd7d4bca78937de5d50704592d1"
++    }
++  }
+ };
