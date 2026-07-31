@@ -20,6 +20,8 @@ finish-args:
   - --device=dri
   # Syncing & login
   - --share=network
+  # Autostart
+  - --filesystem=xdg-config/autostart:create
   # Backups
   - --filesystem=xdg-documents/Notesnook:create
   # System Tray Icon
