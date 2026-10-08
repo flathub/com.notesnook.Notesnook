@@ -1,9 +1,9 @@
 app-id: com.notesnook.Notesnook
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '24.08'
+base-version: '25.08'
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.node22
 command: start-notesnook
@@ -78,14 +78,14 @@ modules:
       - generated-sources.json
       - type: git
         url: https://github.com/streetwriters/notesnook
-        commit: db7271623466aec731f4b2da3417f7fb37a5033f
-        tag: v3.4.6
+        commit: 430ee0fbf301da02ca72e26daaf69380535f7b9f
+        tag: v3.4.9
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
       - type: archive
-        url: https://github.com/streetwriters/notesnook/releases/download/v3.4.6/notesnook_build_v3.4.6.zip
-        sha256: c02736afe7a252fe1dc60ad5de834f3c738847eac857b4129e81200ad18e4c9a
+        url: https://github.com/streetwriters/notesnook/releases/download/v3.4.9/notesnook_build_v3.4.9.zip
+        sha256: 31228722f1a8ead0de7c1e23a037b8a6b58b5a525978da1142975d2116553853
         strip-components: 0
         x-checker-data:
           type: json
